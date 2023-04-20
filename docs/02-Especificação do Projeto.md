@@ -2,86 +2,87 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|<p>
+![](Aspose.Words.c4282cd7-31b4-4ffc-bb9b-2a48afaa9995.003.png)</p><p>![](Aspose.Words.c4282cd7-31b4-4ffc-bb9b-2a48afaa9995.002.png)</p>|**Cida Salomão**|
+| :-: | -: |
+||<p>**Idade**: 51</p><p>**Ocupação**: serviços gerais - trabalha em uma auto escola fazendo a limpeza do estabelecimeno. </p>|<p>Aplicativos:</p><p>- Facebook</p><p>- Whatsapp</p><p>- Instagram</p><p>- Jogos de passa tempo</p><p></p><p></p>|
+|<p>Motivações</p><p>- Aposentadoria</p><p>- Bom plano de saúde</p><p>- Saúde para ajudar a cuidar dos netos</p><p>- Viajar para praia</p><p></p>|<p>Frustrações</p><p>- Baixa escolaridade</p><p>- Baixa remuneração</p><p>- Muitas contas pra pagar</p><p>- Idade</p>|<p>Hobbies, História</p><p>- Ver suas redes sociais e conversar com amigas e parentes</p><p>- Conzinhar e ir a igraja </p>|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+
+
+|<p>![](Aspose.Words.c4282cd7-31b4-4ffc-bb9b-2a48afaa9995.005.png)</p><p>![](Aspose.Words.c4282cd7-31b4-4ffc-bb9b-2a48afaa9995.004.png)</p><p></p>|**Lucas Silva**|
+| :-: | :-: |
+||<p>**Idade**: 26 </p><p>**Ocupação**: formado em História há dois anos, trabalha em duas escolas publicas e é voluntário numa ong do seu bairro ajudando crianças e jovens com aulas de reforço </p>|<p>Aplicativos:</p><p>- Instagram</p><p>- Whatsapp</p><p>- Twitter</p><p>- Linkedin</p><p>- Aplicativos de serviços de streaming</p><p>- Aplicativos de música</p><p>- Aplicativo de relacionamento</p>|
+|<p>Motivações</p><p>- Fazer uma pós-graduação</p><p>- Conhecer vários lugares</p><p>- Ganhar mais</p><p>- Tirar carteira de carro</p><p>- Pagar um plano de saúde para os pais</p><p></p><p></p>|<p>Frustrações</p><p>- Baixa remuneração</p><p>- Pouca pespectiva de melhora para o futuro</p><p>- Desvalorização da sua profissão e formação</p><p>- Pouco dinheiro pra invertir na sua educação e lazer</p>|<p>Hobbies, História</p><p>- Sair com os amigos para beber sua cerverjinha</p><p>- Ver filmes ou séries nos fins de semana</p><p>- Ler livros de fantasia e aventura</p><p>- Passear com o cachorro</p>|
+
+|![](Aspose.Words.c4282cd7-31b4-4ffc-bb9b-2a48afaa9995.006.png)|**Luciana Lima**|
+| :-: | :-: |
+||<p>**Idade**: 39</p><p>**Ocupação**: formada em pscologia e especialista em psicologia organizacional; fala inglês e espanhol; trabalha em uma empresa multinacional de tecnologia, como gerente de RH há três anos.</p>|<p>Aplicativos:</p><p>- Instagram</p><p>- Whatsapp</p><p>- Linkedin</p><p>- Aplicativo de música</p><p>- Aplicativo de atividade fisica</p><p>- Aplicativo de MKplace</p><p>- Aplicativo de leitura</p>|
+|<p>Motivações</p><p>- Fazer mba</p><p>- Conhecer vários lugares</p><p>- Trabalhar numa grande empresa no exteriror </p><p>- Se casar nos pròximos anos</p><p>- Terminar de pagar o apartameno novo</p><p></p><p></p>|<p>Frustrações</p><p>- Pouco tempo com a família e amigos</p><p>- Ter uma remuneração abaixo abaixo do cargo que ocupa</p><p>- Pressão sociais para se casar e ser mãe</p>|<p>Hobbies, História</p><p>- Sair com os amigos </p><p>- Ir ao cinema</p><p>- Correr</p><p>- Viajar</p><p></p>|
+
+
+
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+|**Eu como …  [PERSONA]**|**… quero/desejo … <br>[O QUE]**|<p>**… para ....**</p><p>**[POR QUE]**</p>|
+| :-: | :-: | :-: |
+|Lucas Silva|Sou voluntário em uma ong do meu bairro onde ajudo crianças e jovens com aulas de reforço. Infelizmente devido a pouco valorização da minha área no mercado de trabalho tenho muita dificuldade de manter uma renda estável financeiramente. A pouco tempo sofri um acidente de moto voltando do trabalho e precisei de remédios e ataduras para cuidar das feridas causadas pelo acidente.|Preciso de uma rede de auxilio onde posso encontrar pessoas dispostas a doar medicamentos e até equipamentos de saúde, devido as minhas atuais condições.|
+|Luciana Lima|Atualmente estou passando por uma situação bem delicada, onde meu noivo se encontra em um caso grave de uma doença deterioradora, o tratamento para essa doença e muito caro e com os medicamentos fica quase impossível de pagar o tratamento por completo.  |Uma rede de suporte, onde pessoas possam achar com mais facilidade doações de medicamentos de alto custo e trocar apoio.  |
+|Cida Salomão|Recentemente precisei realizar a compra de um medicamento para tratar uma infecção que surgiu em minha garganta, porém o valor do remédio e era muito alto para minha renda.|Uma rede de suporte, onde pessoas possam achar com mais facilidade doações de medicamentos, que para alguns, podem ser baratos, mas que pra uma pessoa que vive de um salário minímo é muito difícil. |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+## Requisitos do projeto
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O projeto consiste em criar um sistema web que é definido pelos Requisitos funcionais que apresentam as principais funcionalidades do sistema, e os Requisitos não funcionais, que explicam como essas funcionalidades serão aplicadas. Além disso o projeto também é definido pelas restrições, que nada mais é do que as condições que são impostas para a execução do mesmo, que podem ser visualizadas nas seguintes tabelas abaixo: 
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|**ID**|**Descrição**|**Prioridade**|
+| :-: | :-: | :-: |
+|**RF - 01**|O site deve ter a aba de acesso a lista de remédios disponíveis para doação de acordo com cada ponto de distribuição.|Alta|
+|**RF - 02**|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
+|**RF - 03**|O site deverá disponibilizar a localização por mapa de cada ponto onde está sendo distribuído os medicamentos.|Alta|
+|**RF - 04**|O site deverá disponibilizar o contato telefônico/e-mail de cada distribuidor.|Média|
+|**RF-  05**|O site deve ter aba de cadastro de fornecedor de medicamentos que querem doar.|Média|
+|**RF - 06**|O site deverá ter um tutorial de passo a passo, para poder receber o medicamento em doação.|Média|
+|**RF - 07**|O site deverá ter um espaço de comentários de pessoas que conseguiram seus medicamentos.|Baixa|
+|**RF - 08**|O site deverá ter um espaço de cadastro de pontos de distribuição além dos existentes.|Baixa|
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+Os requisitos não funcionais estão descritos logo na tabela abaixo.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+|**ID**|**Descrição**|**Prioridade**|
+| :-: | :-: | :-: |
+|**RNF - 01**|O site deve ter usabilidade adequada para os usuários.|Média|
+|**RNF - 02**|O site deve ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
+|**RNF - 03**|*O site deverá fornecer segurança e confiabilidade aos usuários que irão acessar.*|Alta|
+|**RNF– 04**|O site deve ser acessível para diferentes tipos de navegadores.|Alta|
+|**RNF- 05**|O site deverá ter um bom suporte ao usuário.|Alta|
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-## Restrições
+1. <a name="_toc132752706"></a>**Restrições**
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|**ID**|**Descrição**|
+| :-: | :-: |
+|**RE - 01**|O projeto completo deverá ser entregue até 25 de junho de 2023.|
+|**RE - 02**|O aplicativo deve se restringir às tecnologias básicas da Web no Front-end|
+|**RE - 03**|O repositório das entregas deverá ser feito no G*itHub classroom*|
+|**RE - 04**|O projeto será sem fins lucrativos.|
+|**RE - 05**|O projeto não irá estocar nenhum medicamento em meio físico para doação.|
+|**RE - 06**|O projeto não está vinculado a nenhuma norma da Anvisa.|
+
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
