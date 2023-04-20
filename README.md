@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Remédio Solidário 
 
-`CURSO`
+`Analise e Desenvolvimeto de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Primeiro`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma página de web que possibilita ao usuário a fazer doação e pedidos de mediacamentos, com receita médica, de alto custo. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Anthony Gabriel Santana dos Santos
+* Bárbara de Sousa Martins
+* Diogo Victor Santos Silva
+* Érica Rodrigues Almeida Almarim
+* Matheus Oliveira Rosário
+* Nathan Teixeira Rizzatte
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 ## Instruções de utilização
 
