@@ -82,17 +82,19 @@ FIGURA 08 – Tela Como Apoiar (continuação da página)
 
 Fonte: Arquivo pessoal, 2023
 
-1. <a name="_toc132985834"></a>**Tela – Painel de Usuário** 
+## 5.6 Tela – Painel de Usuário
 
 Na tela Histórico contida dentro do Painel de Usuário, irá mostrar o histórico de doações e solicitações.
 
-![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.014.png)
+![Aspose Words 537123c5-2942-4404-a785-35c66e3cfa4f 014](https://user-images.githubusercontent.com/36486198/233806346-c6cb7c64-1533-40cc-af5b-41b8fd6af971.png)
 
 FIGURA 10 – Tela Histórico dentro do Painel de Usuário
 
 Fonte: Arquivo pessoal, 2023
 
-Na tela atualize seu cadastro, o usuário poderá atualizar todas as informações cadastrais.![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.015.png)
+Na tela atualize seu cadastro, o usuário poderá atualizar todas as informações cadastrais.
+
+![Aspose Words 537123c5-2942-4404-a785-35c66e3cfa4f 015](https://user-images.githubusercontent.com/36486198/233806388-b07172b6-8186-4685-bec0-84f03413829e.png)
 
 FIGURA 11 – Atualize seu Cadastro
 
@@ -100,13 +102,15 @@ Fonte: Arquivo pessoal, 2023
 
 Na tela solicitar medicamento contida dentro do Painel de Usuário, o usuário poderá solicitar um medicamento de um doador.
 
-![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.016.png) FIGURA 12 – Tela Solicitar Medicamento
+![Aspose Words 537123c5-2942-4404-a785-35c66e3cfa4f 016](https://user-images.githubusercontent.com/36486198/233806406-75478791-c48f-4119-a000-99882bd5fa9a.png)
+
+FIGURA 12 – Tela Solicitar Medicamento
 
 Fonte: Arquivo pessoal, 2023
 
 Na tela Doar Medicamento contida dentro do Painel de Usuário, o usuário poderá Doar um medicamento.
 
-![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.017.png)
+![Aspose Words 537123c5-2942-4404-a785-35c66e3cfa4f 017](https://user-images.githubusercontent.com/36486198/233806418-23986d8f-34bb-4e7f-8a5d-53d94d6f6c53.png)
 
 FIGURA 13 – Tela Doar Medicamento
 
