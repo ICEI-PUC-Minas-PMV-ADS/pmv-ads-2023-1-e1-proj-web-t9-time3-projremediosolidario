@@ -1,13 +1,10 @@
 
-# Metodologia
+# 3. Metodologia
 
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-<a name="_toc132752708"></a>**Relação de Ambientes de Trabalho**
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
-
-<a name="_toc132752709"></a>**Relação de Ambientes de Trabalho**
+## 3.2 Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 |**Ambiente**|**Plataforma** |**Link de acesso**|
@@ -17,14 +14,16 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e  Wireframes|Figma|https://www.figma.com/file/86sSkNarrGzv1pIkyloCgJ/Rem%C3%A9dio-Solid%C3%A1rio?node-id=0-1&t=Gj2lLKJap1aGudaR-0|
 |Gerenciamento do Projeto|Trello|https://trello.com/b/uprlhYZV/rem%C3%A9dio-solid%C3%A1rio|
 
-# Gerenciamento do Projeto
+## 3.3 Gerenciamento do Projeto
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
 A equipe está organizada da seguinte maneira:
 
 - Scrum Master: Matheus Rosário
+
 - Product Owner: Nathan Teixeira
+
 - Equipe Desenvolvimento: Erica Rodrigues, Barbara Martins, Diogo Silva, Anthony Gabriel
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
