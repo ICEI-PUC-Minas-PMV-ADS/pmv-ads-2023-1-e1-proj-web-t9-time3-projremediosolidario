@@ -1,8 +1,8 @@
-<a name="_toc132985816"></a>**Especificação do Projeto**
+# 2.0 Especificação do Projeto
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
-<a name="_toc132985817"></a>**Personas**
+## 2.1 Personas
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
@@ -23,7 +23,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 <tr><td colspan="1" valign="top"><p>Motivações</p><p>- Fazer mba</p><p>- Conhecer vários lugares</p><p>- Trabalhar numa grande empresa no exteriror </p><p>- Se casar nos pròximos anos</p><p>- Terminar de pagar o apartameno novo</p><p></p><p></p></td><td colspan="1" valign="top"><p>Frustrações</p><p>- Pouco tempo com a família e amigos</p><p>- Ter uma remuneração abaixo abaixo do cargo que ocupa</p><p>- Pressão sociais para se casar e ser mãe</p></td><td colspan="1" valign="top"><p>Hobbies, História</p><p>- Sair com os amigos </p><p>- Ir ao cinema</p><p>- Correr</p><p>- Viajar</p><p></p></td></tr>
 </table>
 
-<a name="_toc132985818"></a>**Histórias de usuários**
+## 2.2 Histórias de usuários
 
 |**Eu como …  [PERSONA]**|**… quero/desejo … <br>[O QUE]**|<p>**… para ....**</p><p>**[POR QUE]**</p>|
 | :-: | :-: | :-: |
@@ -31,7 +31,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |Luciana Lima|Atualmente estou passando por uma situação bem delicada, onde meu noivo se encontra em um caso grave de uma doença deterioradora, o tratamento para essa doença e muito caro e com os medicamentos fica quase impossível de pagar o tratamento por completo.  |Uma rede de suporte, onde pessoas possam achar com mais facilidade doações de medicamentos de alto custo e trocar apoio.  |
 |Cida Salomão|Recentemente precisei realizar a compra de um medicamento para tratar uma infecção que surgiu em minha garganta, porém o valor do remédio e era muito alto para minha renda.|Uma rede de suporte, onde pessoas possam achar com mais facilidade doações de medicamentos, que para alguns, podem ser baratos, mas que pra uma pessoa que vive de um salário minímo é muito difícil. |
 
-<a name="_toc132985819"></a>**Requisitos do Projeto**
+## 2.3 Requisitos do Projeto
 
 O projeto consiste em criar um sistema web que é definido pelos Requisitos funcionais que apresentam as principais funcionalidades do sistema, e os Requisitos não funcionais, que explicam como essas funcionalidades serão aplicadas. Além disso o projeto também é definido pelas restrições, que nada mais é do que as condições que são impostas para a execução do mesmo, que podem ser visualizadas nas seguintes tabelas abaixo: 
 
@@ -60,7 +60,7 @@ Os requisitos não funcionais estão descritos logo na tabela abaixo.
 |**RNF– 04**|O site deve ser acessível para diferentes tipos de navegadores.|Alta|
 |**RNF- 05**|O site deverá ter um bom suporte ao usuário.|Alta|
 
-<a name="_toc132985822"></a>**Restrições**
+## 2.4 Restrições
 
 As restrições relacionadas a esse projeto estão descritas na tabela a baixo.
 
