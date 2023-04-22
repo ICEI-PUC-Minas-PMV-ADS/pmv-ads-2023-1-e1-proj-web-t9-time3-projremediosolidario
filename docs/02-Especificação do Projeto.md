@@ -1,4 +1,4 @@
-# 2.0 Especificação do Projeto
+# 2. Especificação do Projeto
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
@@ -35,40 +35,40 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 O projeto consiste em criar um sistema web que é definido pelos Requisitos funcionais que apresentam as principais funcionalidades do sistema, e os Requisitos não funcionais, que explicam como essas funcionalidades serão aplicadas. Além disso o projeto também é definido pelas restrições, que nada mais é do que as condições que são impostas para a execução do mesmo, que podem ser visualizadas nas seguintes tabelas abaixo: 
 
-<a name="_toc132985820"></a>**Requisitos funcionais**
+## 2.4 Requisitos funcionais
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|**RF - 01**|O site deve ter a aba de acesso a lista de remédios disponíveis para doação de acordo com cada ponto de distribuição.|Alta|
-|**RF - 02**|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
-|**RF - 03**|O site deverá disponibilizar a localização por mapa de cada ponto onde está sendo distribuído os medicamentos.|Alta|
-|**RF - 04**|O site deverá disponibilizar o contato telefônico/e-mail de cada distribuidor.|Média|
-|**RF-  05**|O site deve ter aba de cadastro de fornecedor de medicamentos que querem doar.|Média|
-|**RF - 06**|O site deverá ter um tutorial de passo a passo, para poder receber o medicamento em doação.|Média|
-|**RF - 07**|O site deverá ter um espaço de comentários de pessoas que conseguiram seus medicamentos.|Baixa|
-|**RF - 08**|O site deverá ter um espaço de cadastro de pontos de distribuição além dos existentes.|Baixa|
+|**RF-01**|O site deve ter a aba de acesso a lista de remédios disponíveis para doação de acordo com cada ponto de distribuição.|Alta|
+|**RF-02**|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
+|**RF-03**|O site deverá disponibilizar a localização por mapa de cada ponto onde está sendo distribuído os medicamentos.|Alta|
+|**RF-04**|O site deverá disponibilizar o contato telefônico/e-mail de cada distribuidor.|Média|
+|**RF-05**|O site deve ter aba de cadastro de fornecedor de medicamentos que querem doar.|Média|
+|**RF-06**|O site deverá ter um tutorial de passo a passo, para poder receber o medicamento em doação.|Média|
+|**RF-07**|O site deverá ter um espaço de comentários de pessoas que conseguiram seus medicamentos.|Baixa|
+|**RF-08**|O site deverá ter um espaço de cadastro de pontos de distribuição além dos existentes.|Baixa|
 
-<a name="_toc132985821"></a>**Requisitos não funcionais**
+## 2.5 Requisitos não funcionais
 
 Os requisitos não funcionais estão descritos logo na tabela abaixo.
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|**RNF - 01**|O site deve ter usabilidade adequada para os usuários.|Média|
-|**RNF - 02**|O site deve ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
-|**RNF - 03**|*O site deverá fornecer segurança e confiabilidade aos usuários que irão acessar.*|Alta|
-|**RNF– 04**|O site deve ser acessível para diferentes tipos de navegadores.|Alta|
-|**RNF- 05**|O site deverá ter um bom suporte ao usuário.|Alta|
+|**RNF-01**|O site deve ter usabilidade adequada para os usuários.|Média|
+|**RNF-02**|O site deve ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
+|**RNF-03**|*O site deverá fornecer segurança e confiabilidade aos usuários que irão acessar.*|Alta|
+|**RNF-04**|O site deve ser acessível para diferentes tipos de navegadores.|Alta|
+|**RNF-05**|O site deverá ter um bom suporte ao usuário.|Alta|
 
-## 2.4 Restrições
+## 2.6 Restrições
 
 As restrições relacionadas a esse projeto estão descritas na tabela a baixo.
 
 |**ID**|**Descrição**|
 | :-: | :-: |
-|**RE - 01**|O projeto completo deverá ser entregue até 25 de junho de 2023.|
-|**RE - 02**|O aplicativo deve se restringir às tecnologias básicas da Web no Front-end|
-|**RE - 03**|O repositório das entregas deverá ser feito no G*itHub classroom*|
-|**RE - 04**|O projeto será sem fins lucrativos.|
-|**RE - 05**|O projeto não irá estocar nenhum medicamento em meio físico para doação.|
-|**RE - 06**|O projeto não está vinculado a nenhuma norma da Anvisa.|
+|**RE-01**|O projeto completo deverá ser entregue até 25 de junho de 2023.|
+|**RE-02**|O aplicativo deve se restringir às tecnologias básicas da Web no Front-end|
+|**RE-03**|O repositório das entregas deverá ser feito no G*itHub classroom*|
+|**RE-04**|O projeto será sem fins lucrativos.|
+|**RE-05**|O projeto não irá estocar nenhum medicamento em meio físico para doação.|
+|**RE-06**|O projeto não está vinculado a nenhuma norma da Anvisa.|
