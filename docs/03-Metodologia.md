@@ -17,7 +17,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e  Wireframes|Figma|https://www.figma.com/file/86sSkNarrGzv1pIkyloCgJ/Rem%C3%A9dio-Solid%C3%A1rio?node-id=0-1&t=Gj2lLKJap1aGudaR-0|
 |Gerenciamento do Projeto|Trello|https://trello.com/b/uprlhYZV/rem%C3%A9dio-solid%C3%A1rio|
 
-## Gerenciamento de Projeto
+## Gerenciamento do Projeto
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
@@ -37,12 +37,10 @@ Em execução: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 
 Pronto/ Finalizado: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação
 
+O quadro trello do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [Trello](https://trello.com/b/uprlhYZV/rem%C3%A9dio-solid%C3%A1rio) e é apresentado, no estado atual na figura abaixo.
 
-O quadro trello do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [Trello](https://trello.com/b/uprlhYZV/rem%C3%A9dio-solid%C3%A1rio) e é apresentado, no estado atual, na abaixo. 
+![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.006.png)
 
+FIGURA 1 – Trello
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Fonte: Arquivo pessoal, 2023
