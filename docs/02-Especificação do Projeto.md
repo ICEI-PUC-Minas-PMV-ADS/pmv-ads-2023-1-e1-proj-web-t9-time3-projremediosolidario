@@ -6,25 +6,22 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-<table><tr><th colspan="1" rowspan="2" valign="top"><p>
-![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.002.png)</p><p>![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.001.png)</p></td><th colspan="2" valign="top"><b>Cida Salomão</b></td></tr>
+
+<table><tr><th colspan="1" rowspan="2" valign="top"><p> </p></td><th colspan="2" valign="top"><b>Cida Salomão</b></td></tr>
 <tr></td><td colspan="1" valign="top"><p><b>Idade</b>: 51</p><p><b>Ocupação</b>: serviços gerais - trabalha em uma auto escola fazendo a limpeza do estabelecimeno. </p></td><td colspan="1" valign="top"><p>Aplicativos:</p><p>- Facebook</p><p>- Whatsapp</p><p>- Instagram</p><p>- Jogos de passa tempo</p><p></p><p></p></td></tr>
 <tr><td colspan="1" valign="top"><p>Motivações</p><p>- Aposentadoria</p><p>- Bom plano de saúde</p><p>- Saúde para ajudar a cuidar dos netos</p><p>- Viajar para praia</p><p></p></td><td colspan="1" valign="top"><p>Frustrações</p><p>- Baixa escolaridade</p><p>- Baixa remuneração</p><p>- Muitas contas pra pagar</p><p>- Idade</p></td><td colspan="1" valign="top"><p>Hobbies, História</p><p>- Ver suas redes sociais e conversar com amigas e parentes</p><p>- Conzinhar e ir a igraja </p></td></tr>
 </table>
 
 
-
-
-<table><tr><th colspan="1" rowspan="2" valign="top"><p>![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.004.png)</p><p>![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.003.png)</p><p></p></td><th colspan="2" valign="top"><b>Lucas Silva</b></td></tr>
+<table><tr><th colspan="1" rowspan="2" valign="top"><p> </p><p></p></td><th colspan="2" valign="top"><b>Lucas Silva</b></td></tr>
 <tr></td><td colspan="1" valign="top"><p><b>Idade</b>: 26 </p><p><b>Ocupação</b>: formado em História há dois anos, trabalha em duas escolas publicas e é voluntário numa ong do seu bairro ajudando crianças e jovens com aulas de reforço </p></td><td colspan="1" valign="top"><p>Aplicativos:</p><p>- Instagram</p><p>- Whatsapp</p><p>- Twitter</p><p>- Linkedin</p><p>- Aplicativos de serviços de streaming</p><p>- Aplicativos de música</p><p>- Aplicativo de relacionamento</p></td></tr>
 <tr><td colspan="1" valign="top"><p>Motivações</p><p>- Fazer uma pós-graduação</p><p>- Conhecer vários lugares</p><p>- Ganhar mais</p><p>- Tirar carteira de carro</p><p>- Pagar um plano de saúde para os pais</p><p></p><p></p></td><td colspan="1" valign="top"><p>Frustrações</p><p>- Baixa remuneração</p><p>- Pouca pespectiva de melhora para o futuro</p><p>- Desvalorização da sua profissão e formação</p><p>- Pouco dinheiro pra invertir na sua educação e lazer</p></td><td colspan="1" valign="top"><p>Hobbies, História</p><p>- Sair com os amigos para beber sua cerverjinha</p><p>- Ver filmes ou séries nos fins de semana</p><p>- Ler livros de fantasia e aventura</p><p>- Passear com o cachorro</p></td></tr>
 </table>
 
-<table><tr><th colspan="1" rowspan="2" valign="top">![](Aspose.Words.537123c5-2942-4404-a785-35c66e3cfa4f.005.png)</td><th colspan="2" valign="top"><b>Luciana Lima</b></td></tr>
+<table><tr><th colspan="1" rowspan="2" valign="top"></td><th colspan="2" valign="top"><b>Luciana Lima</b></td></tr>
 <tr></td><td colspan="1" valign="top"><p><b>Idade</b>: 39</p><p><b>Ocupação</b>: formada em pscologia e especialista em psicologia organizacional; fala inglês e espanhol; trabalha em uma empresa multinacional de tecnologia, como gerente de RH há três anos.</p></td><td colspan="1" valign="top"><p>Aplicativos:</p><p>- Instagram</p><p>- Whatsapp</p><p>- Linkedin</p><p>- Aplicativo de música</p><p>- Aplicativo de atividade fisica</p><p>- Aplicativo de MKplace</p><p>- Aplicativo de leitura</p></td></tr>
 <tr><td colspan="1" valign="top"><p>Motivações</p><p>- Fazer mba</p><p>- Conhecer vários lugares</p><p>- Trabalhar numa grande empresa no exteriror </p><p>- Se casar nos pròximos anos</p><p>- Terminar de pagar o apartameno novo</p><p></p><p></p></td><td colspan="1" valign="top"><p>Frustrações</p><p>- Pouco tempo com a família e amigos</p><p>- Ter uma remuneração abaixo abaixo do cargo que ocupa</p><p>- Pressão sociais para se casar e ser mãe</p></td><td colspan="1" valign="top"><p>Hobbies, História</p><p>- Sair com os amigos </p><p>- Ir ao cinema</p><p>- Correr</p><p>- Viajar</p><p></p></td></tr>
 </table>
-
 
 <a name="_toc132985818"></a>**Histórias de usuários**
 
