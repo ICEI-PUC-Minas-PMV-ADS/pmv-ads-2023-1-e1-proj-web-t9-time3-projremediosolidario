@@ -1,7 +1,7 @@
 # Template padrão do site
 
 O layout padrão do site tem correspondência a Tela Principal criada anteriormente como mostra na FIGURA 3 - Tela Principal.
-
+![](Aspose.Words.ce16bf3c-182c-4205-b61a-433bb2e318b6.014.png)
 FIGURA 3 - Tela Principal 
 
 Fonte: Arquivo pessoal, 2023
