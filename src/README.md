@@ -3,10 +3,8 @@
 ## Instalação do Site
 
 <<<<<<< HEAD
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores... teste22:37
-=======
-Teste alteração
->>>>>>> 54771606a26cae4e93cdd729cc4c7b35a7799747
+O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores... Matheus Oliveira Rosário
+T
 
 ## Histórico de versões
 
