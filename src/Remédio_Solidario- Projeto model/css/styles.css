@@ -490,12 +490,15 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
+  
 }
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
   line-height: 1.2;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   .display-1 {
