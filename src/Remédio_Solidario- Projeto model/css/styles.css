@@ -91,6 +91,8 @@
   }
 }
 
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -490,12 +492,15 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  margin-top: 30px
 }
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
   line-height: 1.2;
+  color: #bd2250;
+  margin-top: 50px;
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -529,6 +534,8 @@ progress {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
+  color: rgb(189, 34, 80);
+  ;
 }
 @media (min-width: 1200px) {
   .display-4 {
@@ -5362,7 +5369,7 @@ textarea.form-control-lg {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: var(--bs-modal-padding);
+
 }
 
 .modal-footer {
@@ -7720,7 +7727,6 @@ textarea.form-control-lg {
 }
 
 .p-4 {
-  padding: 1.5rem !important;
 }
 
 .p-5 {
@@ -7745,6 +7751,7 @@ textarea.form-control-lg {
 .px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
+  margin-right: 1rem;
 }
 
 .px-4 {
@@ -10850,7 +10857,7 @@ html {
 
 aside,
 section {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
 }
 
@@ -10946,7 +10953,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-image: url(/assets/img/thermometer-g3ef363d7c_1280.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -11160,4 +11167,286 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+
+/* Codigo fora da modal bootstrap*/
+
+#Img-Logo {
+
+  width: 150px;
+  height: 100px;
+
+}
+
+
+/* Modal login/  <Matheus responsavel pelo login> */
+:root{
+  --input-linear: linear-gradient(120deg, red, blue );
+  --button-linear:  linear-gradient(120deg, red,blue,red);
+  --input-erro: red;
+  --button-disabled: rgb(152, 152, 163);  
+  --button-sucess: rgb(20, 75, 20);  
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.login{
+  height: 70vh;
+
+  background: var(--input-linear);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container{
+  min-height: 400px;
+  width: 300px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__title{
+  margin-bottom: 50px;
+  color: black;
+  text-align:center;
+  font-size: 20px;
+}
+
+.login__form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__input{
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: 1mm;
+  outline:none;
+}
+
+.login__input-border{
+  height: 1px;
+  width: 110%;
+  margin-bottom: 25px;
+  background-color: rgb(219, 27, 27);
+  transition: .3s ease-in-out;
+}
+
+.login__input-border::after{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  margin-bottom: 16px;
+  background: var(--input-linear);
+  transition: .3s ease-in-out;
+}
+
+.login__input:focus + .login__input-border::after{
+  width: 100%;
+}
+
+.login__input-border.erro{
+  background: var(--input-erro);
+}
+
+.login__input-border::after{
+  background: var(--input-erro);
+}
+
+.login__submit{
+  height: 48px;
+  width: 100%;
+  outline: none;
+  background: var(--button-linear);
+  background-size: 200%;
+  margin-bottom: 32px;
+  color: #F5F5F5;
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .7s ease-in-out;
+
+}
+
+.login__submit:disabled{
+  background: var(--button-disabled);
+  cursor: not-allowed;
+}
+
+.login__submit:hover{
+  background-position: right;
+}
+
+.login__submit.error{
+  background: var(--input-erro);
+}
+
+.login__submit.success{
+  background: var(--button-sucess);
+}
+
+.login__reset{
+  font-size: 12px;
+  color: black;
+  text-decoration:unset ;
+}
+
+.login__cadastro{
+  font-size: 12px;
+  color: black;
+  text-decoration: unset;
+}
+
+/* Imagens da tela home*/
+
+.iframeContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Proporção de aspecto 16:9 (dividir a altura pela largura) */
+}
+
+.iframeContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Cadatro Diogo e Nathan */
+
+/* geral */
+body {
+  padding-top: 5vh;
+  background-image: url('/assets/img/remédio-familia.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+/* form */
+#main-containercadastro {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#main-containercadastro h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: #e60000;
+}
+
+input[type="submit"] {
+  background-color: #e60000;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#agreement {
+  margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+.error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: 12px;
+}
+
+.template {
+  display: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+/* CSS Solicitar Medicamento e Historico */
+
+
+
+
+
+
 
