@@ -7,7 +7,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
 
-<table><tr><th colspan="1" rowspan="2" valign="top"><p> /p></td><th colspan="2" valign="top"><b>Cida Salomão</b></td></tr>
+<table><tr><th colspan="1" rowspan="2" valign="top"><p></td><th colspan="2" valign="top"><b>Cida Salomão</b></td></tr>
 <tr></td><td colspan="1" valign="top"><p><b>Idade</b>: 51</p><p><b>Ocupação</b>: serviços gerais - trabalha em uma auto escola fazendo a limpeza do estabelecimeno. </p></td><td colspan="1" valign="top"><p>Aplicativos:</p><p>- Facebook</p><p>- Whatsapp</p><p>- Instagram</p><p>- Jogos de passa tempo</p><p></p><p></p></td></tr>
 <tr><td colspan="1" valign="top"><p>Motivações</p><p>- Aposentadoria</p><p>- Bom plano de saúde</p><p>- Saúde para ajudar a cuidar dos netos</p><p>- Viajar para praia</p><p></p></td><td colspan="1" valign="top"><p>Frustrações</p><p>- Baixa escolaridade</p><p>- Baixa remuneração</p><p>- Muitas contas pra pagar</p><p>- Idade</p></td><td colspan="1" valign="top"><p>Hobbies, História</p><p>- Ver suas redes sociais e conversar com amigas e parentes</p><p>- Conzinhar e ir a igraja </p></td></tr>
 </table>
