@@ -39,11 +39,11 @@ O projeto consiste em criar um sistema web que é definido pelos Requisitos func
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|**RF-01**|O site deve ter a aba de acesso aos remédios disponíveis para doação.|Alta|
-|**RF-02**|O site deve oferecer uma funcionalidade de pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
+|**RF-01**|O site deverá ter a aba de acesso aos remédios disponíveis para doação.|Alta|
+|**RF-02**|O site deverá oferecer uma funcionalidade de pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
 |**RF-03**|O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.|Média|
 |**RF-04**|O site deverá disponibilizar o contato do doador.|Baixa|
-|**RF-05**|O site deve ter uma tela de cadastro de usuários.|Média|
+|**RF-05**|O site deverá ter uma tela de cadastro de usuários.|Média|
 |**RF-06**|O site deverá ter uma tela histórico.|Baixa|
 |**RF-07**|O site deverá ter uma função de solicitar médicamento.|Média|
 |**RF-08**|O site deverá ter uma função de doar médicamento.|Média|
