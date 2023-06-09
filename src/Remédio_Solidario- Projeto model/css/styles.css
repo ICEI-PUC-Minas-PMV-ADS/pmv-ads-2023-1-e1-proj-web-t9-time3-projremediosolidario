@@ -11205,7 +11205,7 @@ body{
 }
 
 .login__container{
-  min-height: 400px;
+  min-height: 200px;
   width: 300px;
   background-color: white;
   box-sizing: border-box;
@@ -11228,22 +11228,24 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .login__input{
-  height: 48px;
+  height: 50px;
   width: 100%;
   box-sizing: border-box;
   padding-left: 8px;
+  padding-bottom: 1px;
   border: 1mm;
   outline:none;
+  
 }
 
 .login__input-border{
   height: 1px;
-  width: 110%;
-  margin-bottom: 25px;
+  width: 100%;
+  margin-bottom: 35px;
   background-color: rgb(219, 27, 27);
   transition: .3s ease-in-out;
 }
@@ -11395,7 +11397,7 @@ label {
   font-size: .8rem;
 }
 
-input {
+.input__cadastro {
   border-bottom: 2px solid #323232;
   padding: 10px;
   font-size: .9rem;

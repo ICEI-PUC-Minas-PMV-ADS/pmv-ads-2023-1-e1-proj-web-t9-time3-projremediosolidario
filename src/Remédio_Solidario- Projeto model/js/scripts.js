@@ -88,6 +88,7 @@ const init = () => {
         submitButton.classList.remove('error');
         submitButton.classList.add('success');
         submitButton.textContent = "Você será redirecionado =D";
+        window.location.replace("historico.html");
     }
 
 
