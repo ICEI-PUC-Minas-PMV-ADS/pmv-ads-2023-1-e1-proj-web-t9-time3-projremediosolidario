@@ -39,14 +39,14 @@ O projeto consiste em criar um sistema web que é definido pelos Requisitos func
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|**RF-01**|O site deve ter a aba de acesso a lista de remédios disponíveis para doação de acordo com cada ponto de distribuição.|Alta|
-|**RF-02**|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
-|**RF-03**|O site deverá disponibilizar a localização por mapa de cada ponto onde está sendo distribuído os medicamentos.|Alta|
-|**RF-04**|O site deverá disponibilizar o contato telefônico/e-mail de cada distribuidor.|Média|
-|**RF-05**|O site deve ter aba de cadastro de fornecedor de medicamentos que querem doar.|Média|
-|**RF-06**|O site deverá ter um tutorial de passo a passo, para poder receber o medicamento em doação.|Média|
-|**RF-07**|O site deverá ter um espaço de comentários de pessoas que conseguiram seus medicamentos.|Baixa|
-|**RF-08**|O site deverá ter um espaço de cadastro de pontos de distribuição além dos existentes.|Baixa|
+|**RF-01**|O site deve ter a aba de acesso aos remédios disponíveis para doação.|Alta|
+|**RF-02**|O site deve oferecer uma funcionalidade de pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
+|**RF-03**|O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.|Alta|
+|**RF-04**|O site deverá disponibilizar o contato do doador.|Média|
+|**RF-05**|O site deve ter uma tela de cadastro de usuários.|Média|
+|**RF-06**|O site deverá ter uma tela histórico.|Média|
+|**RF-07**|O site deverá ter uma função de solicitar médicamento.|Baixa|
+|**RF-08**|O site deverá ter uma função de doar médicamento.|Baixa|
 
 ## 2.5 Requisitos não funcionais
 
