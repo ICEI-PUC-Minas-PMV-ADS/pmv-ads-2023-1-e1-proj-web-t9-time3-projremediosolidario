@@ -11446,6 +11446,160 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* CSS Solicitar Medicamento e Historico */
 
+/* Bárbara */
+.conteudo{
+  display: flex; /*para utilizar o flexbox*/
+  flex-flow: row; /* do tipo linha pra quando reduzrir a tela do navegador passar de uma linha para a outra*/
+  flex-wrap: wrap; /* para os elementos se deslocarem quando diminuir a largura do browser*/
+}
+
+#perfil img{
+  width: 200px;
+  height: 200px;
+}
+#perfil{
+  margin-top: 10%;
+  width: 20%;
+  height: 50%;  
+  display: inline-block; 
+  float: left;
+}
+#perfil p{
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+/* div solicitacao e doacao*/
+#doacao{
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;  
+}
+#doacao p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#doacao p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#doacao img{
+width: 300px;
+height: 300px;
+}
+#solicitacao{  
+  width: 100%;
+  height: 100%;
+  margin-right: 0px;
+}
+#solicitacao p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#solicitacao p:hover{
+  text-decoration: underline;
+  cursor: pointer; /*altera o cursor quando passa o mouse por cima*/
+}
+
+#solicitacao img{
+  width: 300px;
+  height: 300px;
+}
+h1{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+h2,h3{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#pesquise{
+  border-radius: 30px;
+  width: 50%;
+  height: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+}
+#pesquise2{
+  border-radius: 30px;
+  width: 100px;
+  height: 25px;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: green;
+  padding: 0;
+}
+#solicite{
+  border-radius: 30px;
+  width: 100px;
+  height: 25px;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: green;
+  display: block;
+  padding: 0;
+}
+/* div pra input de pesquisa*/
+#pesquisa{
+  margin-top: 10%;
+  width: 40%;
+  height: 0%;
+  margin-left: 50%;
+}
+/* barra de navegação */
+ul.navegacao li{
+ list-style: none; /* tira estilo da lista*/
+ display: inline; /* coloca os itens da lista na mesma linha */
+ float: right; /*coloca os itens a direita*/
+ font-family: sans-serif;
+ font-size: 20px;
+ margin: 10px; /* espaço entre os elementos da lista*/
+}
+ul.navegacao a{
+  color: black; /*cor da fonte*/
+  text-decoration: none; /*tira a decoração do texto*/
+}
+ul.navegacao a:hover{
+  text-decoration: underline; /*font ficar com sublinhado quando passar o mouse por cima*/
+}
+/* alinhando barra de navegação ao centro da página*/
+section.navega{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#remedios{
+  width: 100%;
+  height: 100%;
+}
+#remedios img{
+  width: 300px;
+  height: 300px;
+}
+#remedios p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#remedios p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#solicite:hover{
+  background-color: #ba1543;
+  color:white;
+  cursor: pointer;
+}
+#pesquise2:hover{
+  background-color: #ba1543;
+  color:white;
+  cursor: pointer;
+}
+
+
+
+
+
 
 
 

@@ -40,8 +40,10 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#comoapoiar">Solicitar</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#aplicativo">Doar</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#aplicativo">Histórico</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#aplicativo">Aplicativo</a></li>
-                    
+
+
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
                     data-bs-target="#feedbackModal">
@@ -61,59 +63,64 @@
             </div>
         </div>
     </nav>
-    <!--Perfil-->  
+    <!--Perfil-->
+    <header>
         <div id="perfil">
-            <img src="img/perfil.jpg" alt="">
+            <img src="assets/img/perfil.jpg" alt="">
             <h1>Lucas Silva</h1>
             <p>30 Anos <br>
                 Formado em História <br> há dois anos trabalha em duas <br> escolas públicas
-                e é voluntário <br> numa ong do seu bairro ajudando  <br>crianças e jovens com <br> aulas de reforço</p>
+                e é voluntário <br> numa ong do seu bairro ajudando <br>crianças e jovens com <br> aulas de reforço</p>
         </div>
- 
-    <div id="pesquisa">
-        <input type="text" id="pesquise" value="Pesquise aqui o seu remédio...">
-        <input type="submit" id="pesquise2" value="Pesquisar">
-    </div>
+        <!--barra de pesquisa-->
+        <div id="pesquisa">
+            <input type="text" id="pesquise" value="Pesquise aqui o seu remédio...">
+            <input type="submit" id="pesquise2" value="Pesquisar">
+        </div>
+    </header>
+
+
     <!--Status de doação-->
-    <section>      
-        <div id="remedios">
-            <h2>Remédios</h2>
-            <!--Tabela para exibir os resultados da busca de remédios-->
-            <table>
-                <tr>
-                    <td><img src="img/remedio_1.png"></td>
-                    <td>
-                        <p>Coristina D pro com 8 comprimidos <br>
-                            Vencimento: 20 de dez, 2024</p>
-                        <input type="submit" id="solicite" value="Solicite">
-                    </td>
-                    <td><img src="img/remedio_2.jpg"></td>
-                    <td>
-                        <p>Benegripe Multisolução oral 240 ml <br>
-                            Vencimento: 16 de abril, 2025</p>
-                        <input type="submit" id="solicite" value="Solicite">
-                    </td>
-            </table>
-            <table>
-                <td><img src="img/remedio_3.jpg"></td>
-                <td>
-                    <p>Desogestrel 75mg, 84 comprimidos <br> Neo Química Genérico <br>
-                        Vencimento: 20 de dezembro, 2024</p>
-                    <input type="submit" id="solicite" value="Solicite">
-                </td>
-                <td><img src="img/remedio_4.jpg"></td>
-                <td>
-                    <p>Alphagan Z Tartarato de Brimonidina 10mg <br>
-                        Vencimento: 20 de dezembro, 2024</p>
-                    <input type="submit" id="solicite" value="Solicite">
-                </td>
-                </tr>
-            </table>
-        </div>
+    <section>
+        <main>
+            <div class="conteudo">
+                <div id="remedios">
+                    <h2>Remédios</h2>
+                    <!--Tabela para exibir os resultados da busca de remédios-->
+                    <table>
+                        <tr>
+                            <td><img src="assets/img/remedio_1.png"></td>
+                            <td>
+                                <p>Coristina D pro com 8 comprimidos <br>
+                                    Vencimento: 20 de dez, 2024</p>
+                                <input type="submit" id="solicite" value="Solicite">
+                            </td>
+                            <td><img src="assets/img/remedio_2.jpg"></td>
+                            <td>
+                                <p>Benegripe Multisolução oral 240 ml <br>
+                                    Vencimento: 16 de abril, 2025</p>
+                                <input type="submit" id="solicite" value="Solicite">
+                            </td>
+                    </table>
+                    <table>
+                        <td><img src="assets/img/remedio_3.jpg"></td>
+                        <td>
+                            <p>Desogestrel 75mg, 84 comprimidos <br> Neo Química Genérico <br>
+                                Vencimento: 20 de dezembro, 2024</p>
+                            <input type="submit" id="solicite" value="Solicite">
+                        </td>
+                        <td><img src="assets/img/remedio_4.jpg"></td>
+                        <td>
+                            <p>Alphagan Z Tartarato de Brimonidina 10mg <br>
+                                Vencimento: 20 de dezembro, 2024</p>
+                            <input type="submit" id="solicite" value="Solicite">
+                        </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
     </section>
-
-
-    
     <!-- Rodape-->
     <footer class="bg-black text-center py-5">
         <div class="container px-5">
