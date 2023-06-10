@@ -41,7 +41,7 @@
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#comoapoiar">Solicitar</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#aplicativo">Doar</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#aplicativo">Aplicativo</a></li>
-                    
+
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
                     data-bs-target="#feedbackModal">
@@ -61,21 +61,36 @@
             </div>
         </div>
     </nav>
-       <!--perfil-->
+
+    <!--Érica perfil e busca-->
+    <div id="perfil">
+        <img src="assets/img/perfil.jpg" alt="Foto do Usuário">
+        <h1 id="nome">Lucas Silva</h1>
+        <p id="idade">Idade: 30</p>
+        <p id="endereco">Belo Horizonte,MG</p>
+    </div>
+
     <header>
-        <div id="perfil">
-            <img src="assets/img/perfil.jpg" alt="">
-            <h1>Lucas Silva</h1>
-            <p>30 Anos <br>
-                Formado em História <br> há dois anos trabalha em duas <br> escolas públicas
-                e é voluntário <br> numa ong do seu bairro ajudando <br> crianças e jovens com <br> aulas de reforço</p>
-        </div>
-         <!--barra de pesquisa-->
-         <div id="pesquisa">
+        <!--barra de pesquisa-->
+        <div id="pesquisa">
             <input type="text" id="pesquise" value="Pesquise aqui o seu remédio...">
-            <input type="submit" id="pesquise2" value="Pesquisar">
+            <input type="submit" id="pesquise2" value="Pesquisar" onclick="buscarMedicamento()">
+            <div id="resultado-busca"></div>
         </div>
+
     </header>
+
+    <div id="modal-chat" class="modal">
+        <p id="doador-modal"></p>
+        <div class="modal-content">
+            <span class="close" onclick="fecharModalChat()">&times;</span>
+            <h3>Chat com o doador</h3>
+            <div id="chat-messages"></div>
+            <input type="text" id="chat-input" placeholder="Digite sua mensagem...">
+            <button onclick="enviarMensagem()">Enviar</button>
+        </div>
+    </div>
+    <div id="resultado-busca"></div>
 
     <!--Status de doação-->
     <section>
@@ -99,22 +114,23 @@
                         </tr>
                     </table>
                 </div>
+
                 <!--Status de solicitação-->
-                <div id="solicitacao">
+                <section id="status-solicitacao">
+                    <h2>Status de Solicitação</h2>
+                    <ul id="lista-solicitacoes">
+                        <!-- Itens de solicitação serão adicionados aqui -->
+                    </ul>
+                </section>
+
+                <div id="status-solicitacao">
                     <h3>Status de Solicitação:</h3>
                     <!--tabela para exibir os resultados da doação de medicamentos-->
                     <table>
                         <tr> <!--linha-->
-                            <td><img src="assets/img/remedio_3.jpg"></td> <!--colunas-->
-                            <td>
-                                <p>Desogestrel 75mg, 84 comprimidos <br> Neo Química Genérico <br>
-                                    Vencimento: 20 de dezembro, 2024</p>
-                            </td>
-                            <td><img src="assets/img/remedio_4.jpg"></td>
-                            <td>
-                                <p>Alphagan Z Tartarato de Brimonidina 10mg <br>
-                                    Vencimento: 20 de dezembro, 2024</p>
-                            </td>
+                            <td id="lista-solicitacoes">                                
+                                    <!-- Itens de solicitação serão adicionados aqui -->                               
+                            </td> <!--colunas-->
                         </tr>
                     </table>
                 </div>
@@ -137,6 +153,7 @@
         </div>
     </footer>
 
-    
+    <script src="js/historico.js"></script>
 </body>
+
 </html>
