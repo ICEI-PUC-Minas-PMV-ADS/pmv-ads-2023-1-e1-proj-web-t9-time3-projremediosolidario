@@ -501,6 +501,7 @@ progress {
   line-height: 1.2;
   color: #bd2250;
   margin-top: 50px;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   .display-1 {
