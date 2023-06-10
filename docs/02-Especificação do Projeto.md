@@ -7,7 +7,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
 
-<table><tr><th colspan="1" rowspan="2" valign="top"><p> </p></td><th colspan="2" valign="top"><b>Cida Salomão</b></td></tr>
+<table><tr><th colspan="1" rowspan="2" valign="top"><p></td><th colspan="2" valign="top"><b>Cida Salomão</b></td></tr>
 <tr></td><td colspan="1" valign="top"><p><b>Idade</b>: 51</p><p><b>Ocupação</b>: serviços gerais - trabalha em uma auto escola fazendo a limpeza do estabelecimeno. </p></td><td colspan="1" valign="top"><p>Aplicativos:</p><p>- Facebook</p><p>- Whatsapp</p><p>- Instagram</p><p>- Jogos de passa tempo</p><p></p><p></p></td></tr>
 <tr><td colspan="1" valign="top"><p>Motivações</p><p>- Aposentadoria</p><p>- Bom plano de saúde</p><p>- Saúde para ajudar a cuidar dos netos</p><p>- Viajar para praia</p><p></p></td><td colspan="1" valign="top"><p>Frustrações</p><p>- Baixa escolaridade</p><p>- Baixa remuneração</p><p>- Muitas contas pra pagar</p><p>- Idade</p></td><td colspan="1" valign="top"><p>Hobbies, História</p><p>- Ver suas redes sociais e conversar com amigas e parentes</p><p>- Conzinhar e ir a igraja </p></td></tr>
 </table>
@@ -39,14 +39,14 @@ O projeto consiste em criar um sistema web que é definido pelos Requisitos func
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|**RF-01**|O site deve ter a aba de acesso a lista de remédios disponíveis para doação de acordo com cada ponto de distribuição.|Alta|
-|**RF-02**|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
-|**RF-03**|O site deverá disponibilizar a localização por mapa de cada ponto onde está sendo distribuído os medicamentos.|Alta|
-|**RF-04**|O site deverá disponibilizar o contato telefônico/e-mail de cada distribuidor.|Média|
-|**RF-05**|O site deve ter aba de cadastro de fornecedor de medicamentos que querem doar.|Média|
-|**RF-06**|O site deverá ter um tutorial de passo a passo, para poder receber o medicamento em doação.|Média|
-|**RF-07**|O site deverá ter um espaço de comentários de pessoas que conseguiram seus medicamentos.|Baixa|
-|**RF-08**|O site deverá ter um espaço de cadastro de pontos de distribuição além dos existentes.|Baixa|
+|**RF-01**|O site deverá ter a aba de acesso aos remédios disponíveis para doação.|Alta|
+|**RF-02**|O site deverá oferecer uma funcionalidade de pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.|Alta|
+|**RF-03**|O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.|Média|
+|**RF-04**|O site deverá disponibilizar o contato do doador.|Baixa|
+|**RF-05**|O site deverá ter uma tela de cadastro de usuários.|Média|
+|**RF-06**|O site deverá ter uma tela histórico.|Baixa|
+|**RF-07**|O site deverá ter uma função de solicitar médicamento.|Média|
+|**RF-08**|O site deverá ter uma função de doar médicamento.|Média|
 
 ## 2.5 Requisitos não funcionais
 

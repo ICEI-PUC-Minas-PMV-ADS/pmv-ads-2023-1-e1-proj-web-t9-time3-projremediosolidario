@@ -1,14 +1,20 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Abaixo segue os casos de teste.
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+|**Caso de Teste**|**CT- Login – Realizar Login no site**|
+| :-: | :- |
+|**Requisitos Associados**|<p>**RF-03 -** O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.</p><p></p><p>**RNF-02 -** O site deve ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.</p>|
+|**Objetivo do Teste**|Verificar se após digitar o login e senha, o usuário será redirecionado para o painel do usuário.|
+|**Passos**|<p>1) Fazer o download da pasta Remédio\_Solidario [Git Hub.](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/tree/a7bc47e5c39f16e2d9deaedcf7fecd8489db22c4/src)</p><p>2) Acessar a pasta e clicar em index\.html</p><p>3) Visualizar a página Home\.</p><p>4) Clicar em Login</p><p>5) Digitar o login <eve.holt@reqres.in> e senha cityslicka</p><p>6) Clicar em Entrar</p>|
+|**Critérios de Êxito**|<p>- Você deverá ser redirecionado a pagina painel de usuário</p><p>- Se for digitado um login e senha invalido deverá apresentar uma mensagem de erro.</p><p>- Se for digitado um e-mail invalido, o botão Entrar ficará indisponível</p><p>- Se for digitado uma senha menor de 6 caracteres, o botão Entrar ficará indisponível. </p>|
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
  
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
+
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
