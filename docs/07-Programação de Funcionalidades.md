@@ -4,13 +4,13 @@
 
 **Tela Home (RNF-02, RNF-04, RNF-05)**
 
-A Tela Home é a tela principal onde o usuário fará login para ter acesso ao sistema, e também poderá clicar na aba 'quem somos nós?' para ser direcionado a história do projeto e 'como apoiar' para ser direcionado ao tutorial. Ele poderá inserir o e-mail e senha para fazer login ou clicar em 'criar nova conta' para realizar o cadastro. 
+A Tela Home é a tela principal onde o usuário fará login para ter acesso ao sistema. Após o login, o usuário será direcionado ao painel de usuário. 
 
 Assim como todas as outras telas, foi desenvolvida utilizando HTML5 + CSS. 
 
 O layout da tela pode ser visualizado logo abaixo: 
 
-![Tela principal](https://user-images.githubusercontent.com/121464977/238213198-e8667d34-b7e8-406c-8f82-b9406679dc64.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/aa05e49c-bc31-4b77-9408-80dd70e408bd)
 
 **Requisitos atendidos** 
 
@@ -20,11 +20,9 @@ O layout da tela pode ser visualizado logo abaixo:
 
 **Artefatos da funcionalidade**
 
-- home.html
-- home.css
-- login.png
-- logo.png
-- lupa.png
+- index.html
+- style.css
+- scripts.js
 
 **Estrutura de dados** 
 
@@ -56,24 +54,22 @@ Fonte: Arquivo pessoal, 2023
 5° Execute os arquivos através da extensão Live Server 
 
 
-**Tela Como apoiar (RF-06)**
+**Tela Login (RF-03)**
 
-Onde tem um tutorial de como realizar o cadastro e como solicitar ou doar medicamentos.
+Tela para digitar o usuário e senha para acessar o painel de usuário.
 
-![Tela como apoiar](https://user-images.githubusercontent.com/121464977/238213411-826a2df2-795c-45b5-b903-1bae82e5503c.png)
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/12d9f40c-46e4-474a-985b-4b74fe114ab9)
 
 
 **Requisitos atendidos** 
 
-RF-06 - O site deverá ter um tutorial de passo a passo, para poder receber o medicamento em doação.
+RF-06 - O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.
 
 **Artefatos da funcionalidade**
 
-- comoapoiar.html
-- comoapoiar.css
-- login.png
-- logo.png
-- lupa.png
+- index.html
+- style.css
+- scripts.js
 
 **Estrutura de dados** 
 
