@@ -147,3 +147,49 @@ Fonte: Arquivo pessoal, 2023
 4° Abra a pasta no Visual Studio 
 
 5° Execute os arquivos através da extensão Live Server 
+
+**Solicitar Medicamentos (RF-01, RF-02, RF-03, RF-07)**
+
+Onde é possível pesquisar, solicitar e entrar em contato com o doador.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/77bfa041-64a9-439a-b658-f6008046de64)
+
+**Requisitos atendidos** 
+
+RF-01 - O site deverá ter a aba de acesso aos remédios disponíveis para doação.
+RF-02 - O site deverá oferecer uma funcionalidade de pesquisa para permitir ao usuário localizar um determinado tipo de medicamento.
+RF-03 - O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.
+RF-07 - O site deverá ter uma função de solicitar médicamento.
+
+**Artefatos da funcionalidade**
+
+- solicitarmedicamento.html
+- style.css
+- solicitar.js
+
+**Estrutura de dados** 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/76862f9e-7b87-4d08-a15f-69ab9eb3ad72)
+
+FIGURA 17 - Estrutura de dados em HTML, Tela Solicitar Medicamentos
+
+Fonte: Arquivo pessoal, 2023
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/acddffa7-6a38-4b49-bb07-915a7d2489a5)
+
+FIGURA 17 - Estrutura de dados em CSS, Tela Solicitar Medicamento
+
+Fonte: Arquivo pessoal, 2023
+
+**Instruções de acesso**
+
+1° Faça o Download do arquivo ZIP do projeto no link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario>
+
+2° Descompacte o arquivo em uma pasta em seu computador 
+
+3° Abra o Visual Studio Code 
+
+4° Abra a pasta no Visual Studio 
+
+5° Execute os arquivos através da extensão Live Server 
+
