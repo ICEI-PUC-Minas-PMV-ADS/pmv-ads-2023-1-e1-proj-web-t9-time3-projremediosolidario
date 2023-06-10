@@ -73,13 +73,13 @@ RF-06 - O site deverá ter um sistema Login, para que o usuário acesse o painel
 
 **Estrutura de dados** 
 
-![Aspose Words ce16bf3c-182c-4205-b61a-433bb2e318b6 020](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/42d45fe6-312a-4c56-bcf2-c2572e47da71)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/669d2cb8-3fad-400e-9f6a-cb0666bb9088)
 
 FIGURA 15 - Estrutura de dados em HTML, Tela Como apoiar
 
 Fonte: Arquivo pessoal, 2023
 
-![Aspose Words ce16bf3c-182c-4205-b61a-433bb2e318b6 021](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/73541b22-9a9e-418f-b446-6fd5ccd03c7c)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/22f071e6-331e-46be-98ca-307cf462673c)
 
 
 FIGURA 15 - Estrutura de dados em CSS, Tela Como apoiar
