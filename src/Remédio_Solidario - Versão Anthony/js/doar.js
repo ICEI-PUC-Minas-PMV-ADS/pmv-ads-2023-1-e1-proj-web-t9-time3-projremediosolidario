@@ -1,138 +1,3 @@
-/*!
-* Start Bootstrap - New Age v6.0.7 (https://startbootstrap.com/theme/new-age)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
-window.addEventListener('DOMContentLoaded', event => {
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
-
-});
-
-
-
-
-
-// Javascript do Matheus Tela de login 
-const init = () => {
-
-    //somente para validação do e-mail, testando função
-    const validateEmail = (event) => {
-        const input = event.currentTarget;
-        const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        const emailTest = regex.test(input.value); 
-        
-        if(!emailTest) {
-            submitButton.setAttribute("disabled", "disabled");
-            input.nextElementSibling.classList.add('error');
-        } else {
-            submitButton.removeAttribute("disabled");
-            input.nextElementSibling.classList.remove('error');
-        }
-    }
-
-    //para validar o senha...
-    const validatePassowrd = (event) => {
-        const input = event.currentTarget;
-
-        if(input.value.length < 6) {
-            submitButton.setAttribute("disabled", "disabled");
-            input.nextElementSibling.classList.add('error');
-        } else {
-            submitButton.removeAttribute("disabled");
-            input.nextElementSibling.classList.remove('error');
-        }
-    }
-
-    const inputEmail = document.querySelector('input[type="email"]');
-    const inputPassword = document.querySelector('input[type="password"]');
-    const submitButton = document.querySelector('.login__submit');
-
-    inputEmail.addEventListener('input', validateEmail);
-    inputPassword.addEventListener('input', validatePassowrd);
-
-
-    const errorHandler = () => {
-        submitButton.classList.remove('loading');
-        submitButton.classList.remove('success');
-        submitButton.classList.add('error');
-        submitButton.textContent = "e-mail ou senha invalidos =(";
-    }
-
-    const successHandler = () => {
-        submitButton.classList.remove('loading');
-        submitButton.classList.remove('error');
-        submitButton.classList.add('success');
-        submitButton.textContent = "Você será redirecionado =D";
-        window.location.replace("historico.html");
-    }
-
-
-
-    if(submitButton){
-        submitButton.addEventListener('click', (event) => {
-            event.preventDefault();
-
-            //funcção para mostrar que está fazendo o login
-            submitButton.textContent = "Loading...";
-
-
-            // URL QUE VAI FAZER REQUISIÇÃO, UTILIZEI ESSA API PARA TESTAR
-            fetch ('https://reqres.in/api/login', {         
-                method: 'POST',
-                headers: {
-                    'Content-type': 'application/json'
-                },
-                body: JSON.stringify
-                ({
-                    email: inputEmail.value,
-                    password: inputPassword.value,
-                })
-            }).then((response) => {
-                if (response.status !== 200) {
-                    return errorHandler();
-                }
-                
-                successHandler();
-
-            }).catch(() => {
-                errorHandler();
-            })
-        })
-    }
-}
-
-
-
-
-
-
-// JavaScript Cadastro do site 
-
 class Validator {
 
     constructor() {
@@ -184,6 +49,7 @@ class Validator {
       }, this);
   
     }
+    
   
     // método para validar se tem um mínimo de caracteres
     minlength(input, minValue) {
@@ -225,21 +91,6 @@ class Validator {
       }
   
     }
-  
-    // método para validar e-mail
-    emailvalidate(input) {
-      let re = /\S+@\S+\.\S+/;
-  
-      let email = input.value;
-  
-      let errorMessage = `Insira um e-mail no padrão example@email.com`;
-  
-      if(!re.test(email)) {
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
     // verificar se um campo está igual o outro
     equal(input, inputName) {
   
@@ -262,11 +113,6 @@ class Validator {
   
         this.printMessage(input, errorMessage);
       }
-  
-    }
-  
-    // validando o campo de senha
-    passwordvalidate(input) {
   
       // explodir string em array
       let charArr = input.value.split("");
@@ -329,5 +175,18 @@ class Validator {
   
     validator.validate(form);
   });
-    
-  window.onload = init;
+
+  // tornar o upload de seleção de arquivo como obrigatório
+
+  function validate(){
+    var inp = document.getElementById('upload');
+    if(inp.files.length === 0){
+        alert("Attachment Required");
+        inp.focus();
+
+        return false;
+    }
+}
+
+
+  
