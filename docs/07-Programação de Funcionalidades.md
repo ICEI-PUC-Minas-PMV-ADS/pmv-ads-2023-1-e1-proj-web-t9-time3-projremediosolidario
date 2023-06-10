@@ -74,14 +74,14 @@ RF-06 - O site deverá ter um sistema Login, para que o usuário acesse o painel
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/669d2cb8-3fad-400e-9f6a-cb0666bb9088)
 
-FIGURA 15 - Estrutura de dados em HTML, Tela Como apoiar
+FIGURA 15 - Estrutura de dados em HTML, Tela Login
 
 Fonte: Arquivo pessoal, 2023
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/22f071e6-331e-46be-98ca-307cf462673c)
 
 
-FIGURA 15 - Estrutura de dados em CSS, Tela Como apoiar
+FIGURA 15 - Estrutura de dados em CSS, Tela Login
 
 Fonte: Arquivo pessoal, 2023
 
@@ -188,4 +188,95 @@ Fonte: Arquivo pessoal, 2023
 4° Abra a pasta no Visual Studio 
 
 5° Execute os arquivos através da extensão Live Server 
+
+
+### Doar (RF-08)
+
+Onde é possível realizar o cadastro de um médicamento para doação. 
+
+**INSERIR IMAGEM AQUI XXXXXXXXXX
+
+**Requisitos atendidos** 
+
+RF-08 - O site deverá ter uma função de doar médicamento.
+
+**Artefatos da funcionalidade**
+
+- doar.html
+- style.css
+- doar.js
+
+**Estrutura de dados** 
+
+**INSERIR UMA IMAGEM DO CODIGO HTML
+
+
+FIGURA 16 - Estrutura de dados em HTML, Tela Doar
+
+Fonte: Arquivo pessoal, 2023
+
+**INSERIR UMA IMAGEM DO CODIGO CSS
+
+FIGURA 16 - Estrutura de dados em CSS, Tela Doar
+
+Fonte: Arquivo pessoal, 2023
+
+
+**Instruções de acesso**
+
+1° Faça o Download do arquivo ZIP do projeto no link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario>
+
+2° Descompacte o arquivo em uma pasta em seu computador 
+
+3° Abra o Visual Studio Code 
+
+4° Abra a pasta no Visual Studio 
+
+5° Execute os arquivos através da extensão Live Server 
+
+### Historico (RF-06)
+
+Onde é possível vizualizar o historico de solicitações de medicamentos.
+
+**INSERIR IMAGEM AQUI XXXXXXXXXX
+
+**Requisitos atendidos** 
+
+RF-06 - O site deverá ter uma tela histórico.
+
+**Artefatos da funcionalidade**
+
+- historico.html
+- style.css
+- historico.js
+
+**Estrutura de dados** 
+
+**INSERIR UMA IMAGEM DO CODIGO HTML **
+
+
+FIGURA 17 - Estrutura de dados em HTML, Historico
+
+Fonte: Arquivo pessoal, 2023
+
+**INSERIR UMA IMAGEM DO CODIGO CSS
+
+FIGURA 17 - Estrutura de dados em CSS, Historico
+
+Fonte: Arquivo pessoal, 2023
+
+
+**Instruções de acesso**
+
+1° Faça o Download do arquivo ZIP do projeto no link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario>
+
+2° Descompacte o arquivo em uma pasta em seu computador 
+
+3° Abra o Visual Studio Code 
+
+4° Abra a pasta no Visual Studio 
+
+5° Execute os arquivos através da extensão Live Server 
+
+
 
