@@ -1,8 +1,8 @@
 # Programação de Funcionalidades
 
-**Funcionalidades do Sistema (Telas)**
+## Funcionalidades do Sistema (Telas)
 
-**Tela Home (RNF-02, RNF-04, RNF-05)**
+### Tela Home (RNF-02, RNF-04, RNF-05)
 
 A Tela Home é a tela principal onde o usuário fará login para ter acesso ao sistema. Após o login, o usuário será direcionado ao painel de usuário. 
 
@@ -40,7 +40,6 @@ FIGURA 14 - Estrutura de dados em CSS, Tela Principal
 Fonte: Arquivo pessoal, 2023
 
 
-
 **Instruções de acesso**
 
 1° Faça o Download do arquivo ZIP do projeto no link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario>
@@ -54,7 +53,7 @@ Fonte: Arquivo pessoal, 2023
 5° Execute os arquivos através da extensão Live Server 
 
 
-**Tela Login (RF-03)**
+### Tela Login (RF-03)
 
 Tela para digitar o usuário e senha para acessar o painel de usuário.
 
@@ -87,7 +86,6 @@ FIGURA 15 - Estrutura de dados em CSS, Tela Como apoiar
 Fonte: Arquivo pessoal, 2023
 
 
-
 **Instruções de acesso**
 
 1° Faça o Download do arquivo ZIP do projeto no link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario>
@@ -101,7 +99,7 @@ Fonte: Arquivo pessoal, 2023
 5° Execute os arquivos através da extensão Live Server 
 
 
-**Tela Cadastro (RF-05)**
+### Tela Cadastro (RF-05)
 
 Onde é possível se cadastrar para ter acesso ao sistema. 
 
@@ -123,17 +121,15 @@ RF-05 - O site deve ter aba de cadastro de usuários.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/a0c92185-0ec8-4160-abb9-373228d7296b)
 
 
-FIGURA 17 - Estrutura de dados em HTML, Tela Cadastro
+FIGURA 16 - Estrutura de dados em HTML, Tela Cadastro
 
 Fonte: Arquivo pessoal, 2023
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/36486198/f94f4042-e659-4f49-9f72-1510c98b09c0)
 
-FIGURA 17 - Estrutura de dados em CSS, Tela Cadastro
+FIGURA 16 - Estrutura de dados em CSS, Tela Cadastro
 
 Fonte: Arquivo pessoal, 2023
-
-
 
 
 **Instruções de acesso**
@@ -148,7 +144,7 @@ Fonte: Arquivo pessoal, 2023
 
 5° Execute os arquivos através da extensão Live Server 
 
-**Solicitar Medicamentos (RF-01, RF-02, RF-03, RF-07)**
+### Solicitar Medicamentos (RF-01, RF-02, RF-03, RF-07) 
 
 Onde é possível pesquisar, solicitar e entrar em contato com o doador.
 
