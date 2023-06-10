@@ -1,126 +1,125 @@
-   
 var medicamentos = [
-{
-imagemRemedio: "assets/img/remedio_1.png",
-nomeDoador: "João Souza",
-estado: "Minas Gerais",
-cidade: "Sete Lagoas",
-nomeRemedio: "Dipirona",
-quantidadeComprimidos: 20,
-numeroRegistro: "123456",
-validade: "2025-12-01",
-nomeEmpresa: "Medley",
-especialidade: "Analgésico"
-},
-{
-imagemRemedio: "assets/img/remedio_2.jpg",
-nomeDoador: "Maria Souza",
-estado: "Minas Gerais",
-cidade: "Belo Horizonte",
-nomeRemedio: "Paracetamol",
-quantidadeComprimidos: 20,
-numeroRegistro: "123456",
-validade: "2024-05-01",
-nomeEmpresa: "Eurofarma",
-especialidade: "Analgésico"
-},
-{
-imagemRemedio: "assets/img/remedio_3.jpg",
-nomeDoador: "Ana Souza",
-estado: "Minas Gerais",
-cidade: "Belo Horizonte",
-nomeRemedio: "Amoxilina",
-quantidadeComprimidos: 10,
-numeroRegistro: "123456",
-validade: "2024-09-15",
-nomeEmpresa: "Eurofarma",
-especialidade: "Antibiotico"
-},
-{
-imagemRemedio: "assets/img/remedio_4.jpg",
-nomeDoador: "Júlia Silva",
-estado: "Minas Gerais",
-cidade: "Belo Horizonte",
-nomeRemedio: "Paracetamol",
-quantidadeComprimidos: 50,
-numeroRegistro: "123456",
-validade: "2024-03-20",
-nomeEmpresa: "Neo Química",
-especialidade: "Analgésico"
-},
-{
-imagemRemedio: "assets/img/remedio_5.jpg",
-nomeDoador: "Paulo Silva",
-estado: "Minas Gerais",
-cidade: "Belo Horizonte",
-nomeRemedio: "Ibuprofeno",
-quantidadeComprimidos: 15,
-numeroRegistro: "123456",
-validade: "2023-12-10",
-nomeEmpresa: "Eurofarma",
-especialidade: "Analgésico"
-},
-{
-imagemRemedio: "assets/img/remedio_6.png",
-nomeDoador: "Lucas Silva",
-estado: "Minas Gerais",
-cidade: "Contagem",
-nomeRemedio: "Insulina",
-quantidadeComprimidos: 30,
-numeroRegistro: "123456",
-validade: "2024-02-05",
-nomeEmpresa: "Neo Química",
-especialidade: "Endocrinologico"
-},
-{
-imagemRemedio: "assets/img/remedio_7.jpg",
-nomeDoador: "Marcela Silva",
-estado: "Minas Gerais",
-cidade: "Contagem",
-nomeRemedio: "Losartana",
-quantidadeComprimidos: 30,
-numeroRegistro: "123456",
-validade: "2023-08-18",
-nomeEmpresa: "Medley",
-especialidade: "Anti-hipertensivo"
-},
-{
-imagemRemedio: "assets/img/remedio_8.jpg",
-nomeDoador: "Karina Matos",
-estado: "Minas Gerais",
-cidade: "Betim",
-nomeRemedio: "Tropinal",
-quantidadeComprimidos: 10,
-numeroRegistro: "123456",
-validade: "2024-07-10",
-nomeEmpresa: "Neo Química",
-especialidade: "Analgésico"
-},
-{
-imagemRemedio: "assets/img/remedio_9.jpg",
-nomeDoador: "Silvia Matos",
-estado: "Minas Gerais",
-cidade: "Betim",
-nomeRemedio: "T-Puran",
-quantidadeComprimidos: 8,
-numeroRegistro: "123456",
-validade: "2023-10-05",
-nomeEmpresa: "Medley",
-especialidade: "Endocrinologico"
-},
-{
-imagemRemedio: "assets/img/remedio_10.jpg",
-nomeDoador: "Pedro Pimenta",
-estado: "Minas Gerais",
-cidade: "Belo Horizonte",
-nomeRemedio: "Avastim",
-quantidadeComprimidos: 20,
-numeroRegistro: "123456",
-validade: "2023-12-01",
-nomeEmpresa: "Neo Química",
-especialidade: "Ancologico"
-},
-];
+  {
+  imagemRemedio: "assets/img/remedio_1.png",
+  nomeDoador: "João Souza",
+  estado: "Minas Gerais",
+  cidade: "Sete Lagoas",
+  nomeRemedio: "Dipirona",
+  quantidadeComprimidos: 20,
+  numeroRegistro: "123456",
+  validade: "2025-12-01",
+  nomeEmpresa: "Medley",
+  especialidade: "Analgésico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_2.jpg",
+  nomeDoador: "Maria Souza",
+  estado: "Minas Gerais",
+  cidade: "Belo Horizonte",
+  nomeRemedio: "Paracetamol",
+  quantidadeComprimidos: 20,
+  numeroRegistro: "123456",
+  validade: "2024-05-01",
+  nomeEmpresa: "Eurofarma",
+  especialidade: "Analgésico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_3.jpg",
+  nomeDoador: "Ana Souza",
+  estado: "Minas Gerais",
+  cidade: "Belo Horizonte",
+  nomeRemedio: "Amoxilina",
+  quantidadeComprimidos: 10,
+  numeroRegistro: "123456",
+  validade: "2024-09-15",
+  nomeEmpresa: "Eurofarma",
+  especialidade: "Antibiotico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_4.jpg",
+  nomeDoador: "Júlia Silva",
+  estado: "Minas Gerais",
+  cidade: "Belo Horizonte",
+  nomeRemedio: "Paracetamol",
+  quantidadeComprimidos: 50,
+  numeroRegistro: "123456",
+  validade: "2024-03-20",
+  nomeEmpresa: "Neo Química",
+  especialidade: "Analgésico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_5.png",
+  nomeDoador: "Paulo Silva",
+  estado: "Minas Gerais",
+  cidade: "Belo Horizonte",
+  nomeRemedio: "Ibuprofeno",
+  quantidadeComprimidos: 15,
+  numeroRegistro: "123456",
+  validade: "2023-12-10",
+  nomeEmpresa: "Eurofarma",
+  especialidade: "Analgésico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_6.png",
+  nomeDoador: "Lucas Silva",
+  estado: "Minas Gerais",
+  cidade: "Contagem",
+  nomeRemedio: "Insulina",
+  quantidadeComprimidos: 30,
+  numeroRegistro: "123456",
+  validade: "2024-02-05",
+  nomeEmpresa: "Neo Química",
+  especialidade: "Endocrinologico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_7.png",
+  nomeDoador: "Marcela Silva",
+  estado: "Minas Gerais",
+  cidade: "Contagem",
+  nomeRemedio: "Losartana",
+  quantidadeComprimidos: 30,
+  numeroRegistro: "123456",
+  validade: "2023-08-18",
+  nomeEmpresa: "Medley",
+  especialidade: "Anti-hipertensivo"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_8.png",
+  nomeDoador: "Karina Matos",
+  estado: "Minas Gerais",
+  cidade: "Betim",
+  nomeRemedio: "Tropinal",
+  quantidadeComprimidos: 10,
+  numeroRegistro: "123456",
+  validade: "2024-07-10",
+  nomeEmpresa: "Neo Química",
+  especialidade: "Analgésico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_9.png",
+  nomeDoador: "Silvia Matos",
+  estado: "Minas Gerais",
+  cidade: "Betim",
+  nomeRemedio: "T-Puran",
+  quantidadeComprimidos: 8,
+  numeroRegistro: "123456",
+  validade: "2023-10-05",
+  nomeEmpresa: "Medley",
+  especialidade: "Endocrinologico"
+  },
+  {
+  imagemRemedio: "assets/img/remedio_10.png",
+  nomeDoador: "Pedro Pimenta",
+  estado: "Minas Gerais",
+  cidade: "Belo Horizonte",
+  nomeRemedio: "Avastim",
+  quantidadeComprimidos: 20,
+  numeroRegistro: "123456",
+  validade: "2023-12-01",
+  nomeEmpresa: "Neo Química",
+  especialidade: "Ancologico"
+  },
+      ];
 
 function popularFiltros() {
   var cidades = [];
@@ -241,7 +240,7 @@ function solicitarMedicamento() {
   solicitacaoDiv.classList.add("solicitacao");
 
   var imagemDoador = document.createElement("img");
-  imagemDoador.src = "imagem_doador.jpg";
+  imagemDoador.src = "assets/img/remedio_1.png";
   solicitacaoDiv.appendChild(imagemDoador);
 
   var nomeDoadorElement = document.createElement("p");

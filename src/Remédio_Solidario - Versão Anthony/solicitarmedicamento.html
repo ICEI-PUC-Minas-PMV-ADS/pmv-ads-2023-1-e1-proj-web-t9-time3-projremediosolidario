@@ -27,8 +27,7 @@
 
 
     <!-- Navegação do cabeçalho-->
-    <!-- Navegação do cabeçalho-->
-    <nav  class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="#page-top"> <img id="Img-Logo" src="assets/img/Logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -39,10 +38,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item"><a class="nav-link me-lg-3" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="./solicitarmedicamento.html">Solicitar</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="./doar.html">Doar</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="./solicitarmedicamento.html">Solicitar</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="./historico.html">Histórico</a></li>
-                    
+
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
                     data-bs-target="#feedbackModal">
@@ -63,56 +62,79 @@
         </div>
     </nav>
 
-    <section id="section">
-        <main>
-            <div class="conteudo">                
-                <div id="perfil">
-                    <img src="assets/img/perfil.jpg" alt="">
-                    <h1>Lucas Silva</h1>
-                    <p>30 Anos <br>
-                        Formado em História <br> há dois anos trabalha em duas <br> escolas públicas
-                        e é voluntário <br> numa ong do seu bairro ajudando <br>crianças e jovens com <br> aulas de reforço</p>
-                </div>
-                <div id="remedios">
-                    <div id="pesquisa">
-                        <input type="text" id="pesquise" value="Pesquise aqui o seu remédio...">
-                        <input type="submit" id="pesquise2" value="Pesquisar">
-                    </div>
-                    <!--Tabela para exibir os resultados da busca de remédios-->
-                    <table>
-                        <tr>
-                            <td><img src="assets/img/remedio_1.png"></td>
-                            <td>
-                                <p>Coristina D pro com 8 comprimidos <br>
-                                    Vencimento: 20 de dez, 2024</p>
-                                <input type="submit" id="solicite" value="Solicite">
-                            </td>
-                            <td><img src="assets/img/remedio_2.jpg"></td>
-                            <td>
-                                <p>Benegripe Multisolução oral 240 ml <br>
-                                    Vencimento: 16 de abril, 2025</p>
-                                <input type="submit" id="solicite" value="Solicite">
-                            </td>
-                    </table>
-                    <table>
-                        <td><img src="assets/img/remedio_3.jpg"></td>
-                        <td>
-                            <p>Desogestrel 75mg, 84 comprimidos <br> Neo Química Genérico <br>
-                                Vencimento: 20 de dezembro, 2024</p>
-                            <input type="submit" id="solicite" value="Solicite">
-                        </td>
-                        <td><img src="assets/img/remedio_4.jpg"></td>
-                        <td>
-                            <p>Alphagan Z Tartarato de Brimonidina 10mg <br>
-                                Vencimento: 20 de dezembro, 2024</p>
-                            <input type="submit" id="solicite" value="Solicite">
-                        </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </main>
+    <div id="perfil">
+        <img src="assets/img/perfil.jpg" alt="">
+        <h1>Lucas Silva</h1>
+        <p>30 Anos <br>
+        <p id="idade">Idade: 30</p>
+        <p id="endereco">Belo Horizonte,MG</p>
+    </div>
+
+    <!--Érica-->
+<!-- Conteúdo principal -->
+<div class="main">
+    <!-- Campo de busca e filtros -->
+    <div class="search-filters">
+      <input type="text" id="buscaInput" placeholder="Buscar medicamento">
+      <select id="filtroCidade">
+        <option value="">Filtrar por cidade</option>
+      </select>
+      <select id="filtroEstado">
+        <option value="">Filtrar por estado</option>
+      </select>
+      <select id="filtroEspecialidade">
+        <option value="">Filtrar por especialidade</option>
+      </select>
+      <button onclick="filtrarMedicamentos()">Filtrar</button>
+    </div>
+
+    <!-- Medicamento encontrado -->
+    <div class="medicamento-encontrado">
+
+      <img src="" alt="Imagem do medicamento">
+      <h2></h2>
+      <p>Nome do remédio: </p>
+      <p>Estado: </p>
+      <p>Cidade: </p>
+      <p>Quantidade de comprimidos: </p>
+      <p>Especialidade: </p>
+      <p>Validade: </p>
+      <p>Nome do doador: </p>
+      <button class="solicitar-btn" onclick="solicitarMedicamento()">Solicitar</button>
+    </div>
+
+    <section id="status-solicitacao">
+      <h2>Status de Solicitação</h2>
+      <ul id="lista-solicitacoes">
+        <!-- Itens de solicitação serão adicionados aqui -->
+      </ul>
     </section>
+
+    <!-- Medicamento indisponível -->
+    <div class="medicamento-indisponivel">
+      <p>Medicamento indisponível</p>
+    </div>
+
+    <!-- Solicitações -->
+    <div class="solicitacoes">
+      <!-- As solicitações serão adicionadas aqui -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal de chat -->
+<div class="modal" id="chatModal">
+  <span class="close" onclick="fecharModal()">&times;</span>
+  <div class="modal-content">
+    <h3>Chat com Doador</h3>
+    <p>Nome do doador: </p>
+    <!-- O chat será adicionado aqui -->
+  </div>
+  <textarea id="mensagemInput" rows="4" placeholder="Digite uma mensagem"></textarea>
+  <button onclick="enviarMensagem()">Enviar</button>
+</div>
+
+
     <!-- Rodape-->
     <footer class="bg-black text-center py-5">
         <div class="container px-5">
@@ -128,7 +150,6 @@
     </footer>
 
     <script src="js/solicitar.js"></script>
-
 </body>
 
 </html>

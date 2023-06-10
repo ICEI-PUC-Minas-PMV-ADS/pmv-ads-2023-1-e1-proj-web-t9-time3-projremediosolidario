@@ -49,7 +49,7 @@ nomeEmpresa: "Neo Química",
 especialidade: "Analgésico"
 },
 {
-imagemRemedio: "assets/img/remedio_5.jpg",
+imagemRemedio: "assets/img/remedio_5.png",
 nomeDoador: "Paulo Silva",
 estado: "Minas Gerais",
 cidade: "Belo Horizonte",
@@ -73,7 +73,7 @@ nomeEmpresa: "Neo Química",
 especialidade: "Endocrinologico"
 },
 {
-imagemRemedio: "assets/img/remedio_7.jpg",
+imagemRemedio: "assets/img/remedio_7.png",
 nomeDoador: "Marcela Silva",
 estado: "Minas Gerais",
 cidade: "Contagem",
@@ -85,7 +85,7 @@ nomeEmpresa: "Medley",
 especialidade: "Anti-hipertensivo"
 },
 {
-imagemRemedio: "assets/img/remedio_8.jpg",
+imagemRemedio: "assets/img/remedio_8.png",
 nomeDoador: "Karina Matos",
 estado: "Minas Gerais",
 cidade: "Betim",
@@ -97,7 +97,7 @@ nomeEmpresa: "Neo Química",
 especialidade: "Analgésico"
 },
 {
-imagemRemedio: "assets/img/remedio_9.jpg",
+imagemRemedio: "assets/img/remedio_9.png",
 nomeDoador: "Silvia Matos",
 estado: "Minas Gerais",
 cidade: "Betim",
@@ -109,7 +109,7 @@ nomeEmpresa: "Medley",
 especialidade: "Endocrinologico"
 },
 {
-imagemRemedio: "assets/img/remedio_10.jpg",
+imagemRemedio: "assets/img/remedio_10.png",
 nomeDoador: "Pedro Pimenta",
 estado: "Minas Gerais",
 cidade: "Belo Horizonte",

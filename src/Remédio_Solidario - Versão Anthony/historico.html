@@ -27,6 +27,7 @@
 
 
     <!-- Navegação do cabeçalho-->
+    <!-- Navegação do cabeçalho-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="#page-top"> <img id="Img-Logo" src="assets/img/Logo.png" alt=""></a>
@@ -38,9 +39,11 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item"><a class="nav-link me-lg-3" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="./solicitarmedicamento.html">Solicitar</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="./solicitarmedicamento.html">Solicitar</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="./doar.html">Doar</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="./historico.html">Histórico</a></li>
-                    
+
                 </ul>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
                     data-bs-target="#feedbackModal">
@@ -61,108 +64,74 @@
         </div>
     </nav>
 
-    <div id="modal-chat" class="modal">
-        <p id="doador-modal"></p>
-        <div class="modal-content">
-            <span class="close" onclick="fecharModalChat()">&times;</span>
-            <h3>Chat com o doador</h3>
-            <div id="chat-messages"></div>
-            <input type="text" id="chat-input" placeholder="Digite sua mensagem...">
-            <button onclick="enviarMensagem()">Enviar</button>
-        </div>
-    </div>
-    <div id="resultado-busca"></div>
-
-    <!--Status de doação-->
-    <section id="section-doacao">
+    <section id="section">
         <main>
             <div class="conteudo">
-                <div id="doacao">
-                    <div id="pesquisa">
-                        <input type="text" id="pesquise" value="Pesquise aqui o seu remédio...">
-                        <input type="submit" id="pesquise2" value="Pesquisar" onclick="buscarMedicamento()">
-                        <div id="resultado-busca"></div>
+                <div id="perfil">
+                    <img src="assets/img/perfil.jpg" alt="">
+                    <h1>Lucas Silva</h1>
+                    <p>30 Anos <br>
+                    <p id="idade">Idade: 30</p>
+                    <p id="endereco">Belo Horizonte,MG</p>
+                </div>
+
+                <div id="remedios">
+                    <header>
+                        <!--barra de pesquisa-->
+                        <div id="pesquisa">
+                            <input type="text" id="pesquise" placeholder="Pesquise aqui o seu remédio...">
+                            <input type="submit" id="pesquise2" value="Pesquisar" onclick="buscarMedicamento()">
+                            <div id="resultado-busca"></div>
+                        </div>
+                    </header>
+                    <!-- chat com doador-->
+                    <div id="modal-chat" class="modal">
+                        <p id="doador-modal"></p>
+                        <div class="modal-content">
+                            <span class="close" onclick="fecharModalChat()">&times;</span>
+                            <h3>Chat com o doador</h3>
+                            <div id="chat-messages"></div>
+                            <input type="text" id="chat-input" placeholder="Digite sua mensagem...">
+                            <button onclick="enviarMensagem()">Enviar</button>
+                        </div>
                     </div>
-                    <!--tabela para exibir os resultados da doação de medicamentos-->
+                    <div id="resultado-busca"></div>
+
+                    <!--Tabela para exibir os resultados da busca de remédios-->
                     <table>
-                        <tr><!--linha-->
-                            <td><img src="assets/img/remedio_1.png"></td><!--colunas-->
+                        <tr>
+                            <td><img src="assets/img/remedio_1.png"></td>
                             <td>
                                 <p>Coristina D pro com 8 comprimidos <br>
                                     Vencimento: 20 de dez, 2024</p>
+                                <input type="submit" id="solicite" value="Solicite">
                             </td>
                             <td><img src="assets/img/remedio_2.jpg"></td>
                             <td>
                                 <p>Benegripe Multisolução oral 240 ml <br>
                                     Vencimento: 16 de abril, 2025</p>
+                                <input type="submit" id="solicite" value="Solicite">
                             </td>
+                    </table>
+                    <table>
+                        <td><img src="assets/img/remedio_3.jpg"></td>
+                        <td>
+                            <p>Desogestrel 75mg, 84 comprimidos <br> Neo Química Genérico <br>
+                                Vencimento: 20 de dezembro, 2024</p>
+                            <input type="submit" id="solicite" value="Solicite">
+                        </td>
+                        <td><img src="assets/img/remedio_4.jpg"></td>
+                        <td>
+                            <p>Alphagan Z Tartarato de Brimonidina 10mg <br>
+                                Vencimento: 20 de dezembro, 2024</p>
+                            <input type="submit" id="solicite" value="Solicite">
+                        </td>
                         </tr>
                     </table>
-                </div>
-                <div id="status-solicitacao">
-                    <ul>
-                        <h3>Estado</h3>
-                        <li>
-                            <input type="checkbox" id="BeloHorizonte" name="interest" value="BeloHorizonte">
-                            <label for="BeloHorizonte">Belo Horizonte</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="Betim" name="interest" value="Betim">
-                            <label for="Betim">Betim</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="Contagem" name="interest" value="Contagem">
-                            <label for="Contagem">Contagem</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="Ibirite" name="interest" value="Ibirite">
-                            <label for="Ibirite">Ibirité</label>
-                        </li>
-                    </ul>
-                    <ul>
-                        <h3>Cidade</h3>
-                        <li>
-                            <input type="checkbox" id="Amazonas" name="interest" value="Amazonas">
-                            <label for="Amazonas">Amazonas</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="Minas Gerais" name="interest" value="Minas Gerais">
-                            <label for="Minas Gerais">Minas Gerais</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="RioDeJaneiro" name="interest" value="RioDeJaneiro">
-                            <label for="RioDeJaneiro">Rio de Janeiro</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="SaoPaulo" name="interest" value="SaoPaulo">
-                            <label for="SaoPaulo">São Paulo</label>
-                        </li>
-                    </ul>
-                    <ul>
-                        <h3>Especialidade</h3>
-                        <li>
-                            <input type="checkbox" id="AntiAlergico" name="interest" value="AntiAlergico">
-                            <label for="AntiAlergico">AntiAlérico</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="AntiGripal" name="interest" value="AntiGripal">
-                            <label for="AntiGripal">AntiGripal</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="DoresDeCabeça" name="interest" value="DoresDeCabeça">
-                            <label for="DoresDeCabeça">Dores de Cabeça</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="DoresMusculares" name="interest" value="DoresMusculares">
-                            <label for="DoresMusculares">Dores Musculares</label>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </main>
     </section>
-
-
     <!-- Rodape-->
     <footer class="bg-black text-center py-5">
         <div class="container px-5">
@@ -178,6 +147,7 @@
     </footer>
 
     <script src="js/historico.js"></script>
+
 </body>
 
 </html>

@@ -11827,4 +11827,112 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+/*ÉRICA filtros solicitar medicamentos*/
 
+/* Estilo da barra de navegação */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Estilo do conteúdo principal */
+.content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* Estilo da seção de perfil do usuário */
+.profile {
+  margin-right: 20px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Estilo do campo de busca e filtros */
+.search-filters {
+  margin-bottom: 20px;
+}
+
+/* Estilo da seção de medicamento encontrado */
+.medicamento-encontrado,
+.medicamento-indisponivel {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.medicamento-encontrado img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.medicamento-encontrado h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.medicamento-encontrado p {
+  margin-bottom: 5px;
+}
+
+.solicitacoes {
+  display: none;
+}
+
+.solicitacao {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.solicitacao img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 300px;
+  max-height: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.modal-content {
+  margin-bottom: 10px;
+}
+
+.modal h3 {
+  margin-bottom: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
