@@ -208,7 +208,7 @@ RF-08 - O site deverá ter uma função de doar médicamento.
 
 **Estrutura de dados** 
 
-**INSERIR UMA IMAGEM DO CODIGO HTML
+![HTML - Doar medicamentos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/22d80998-d11c-49bc-8be0-4356efffedfb)
 
 
 FIGURA 16 - Estrutura de dados em HTML, Tela Doar
