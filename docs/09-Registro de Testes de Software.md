@@ -35,13 +35,12 @@ height="1.6111111111111112in"}
 
 02.3 - Quando tem o medicamento:
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image3.wmf){width="3.4652777777777777in"
-height="4.201388888888889in"}
+![image3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/c0341104-576c-429b-9f70-766603adf1b1)
 
 02.4 - Ao clicar no botão de \"Solicitar\"
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image4.wmf){width="4.229166666666667in"
-height="3.1875in"}
+========
+
 
 02.5 - Ao clicar \"ok\" abri o chat com doador
 
@@ -49,46 +48,37 @@ height="3.1875in"}
 height="3.1875in"}
 
 02.5 - Ao clicar \"Cancelar\" aparece mensagem
-
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image5.wmf){width="3.951388888888889in"
-height="1.5555555555555556in"}
+![image5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/9202218a-0679-4e46-981b-4794cc6921ed)
 
 03 - Resultados para CT - Solicitar Medicamento:
 
 03.1 - Barra de busca com medicamento disponivel
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image6.wmf){width="3.7916666666666665in"
-height="4.291666666666667in"}
+![image6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/c8aefd4a-6a96-42ac-811b-a44068b0c13c)
 
 03.2 - Barra de busca com medicamento indiponivel
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image7.wmf){width="4.138888888888889in"
-height="2.1666666666666665in"}
-
+![image7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/54fca16d-fa0e-4a20-aadd-b9cf8d80f827)
 03.3 - Busca com filtro cidade
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image8.wmf){width="3.7916666666666665in"
-height="3.8402777777777777in"}
+![image8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/5d209f06-c48a-4893-8ecc-28309f1c9795)
+
 
 03.4 - Busca com filtro estado
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image9.wmf){width="3.9027777777777777in"
-height="3.9097222222222223in"}
+![image9](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/e4e6933e-a873-4186-bf50-471d06142e72)
 
 03.5 - Busca com filtro especialidade
-
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image10.wmf){width="3.9375in"
-height="3.7291666666666665in"}
+![image10](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/ff9042a7-d012-495f-9ffb-a63faaa0ad76)
 
 03.6 - Qundo clicar no botão \"Solicitar\"
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image11.wmf){width="3.2291666666666665in"
-height="2.6319444444444446in"}
+![image11](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/fd36124a-a218-4796-ab21-5f30551c1f69)
+
 
 03.7 - Qundo clicar no botão \"Abrir chat\"
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image12.wmf){width="3.0902777777777777in"
-height="4.076388888888889in"}
+![image12](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/13c1d778-8576-412c-bbb6-6e759fd6af43)
 
 ## 04 - Resultados para CT - Doar :
 
