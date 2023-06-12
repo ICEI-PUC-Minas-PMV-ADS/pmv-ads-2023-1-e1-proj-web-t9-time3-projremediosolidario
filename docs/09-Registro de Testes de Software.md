@@ -40,13 +40,12 @@ Evidências dos testes de software realizados no sistema pela equipe, baseado em
 
 02.4 - Ao clicar no botão de \"Solicitar\"
 
-========
+![AnyConv com__image4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/1e4cf79b-d761-4832-8ca2-8f93a33d7fbd)
 
 
 02.5 - Ao clicar \"ok\" abri o chat com doador
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image4.wmf){width="4.229166666666667in"
-height="3.1875in"}
+![AnyConv com__image4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/1e4cf79b-d761-4832-8ca2-8f93a33d7fbd)
 
 02.5 - Ao clicar \"Cancelar\" aparece mensagem
 
