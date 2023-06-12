@@ -25,13 +25,12 @@ Evidências dos testes de software realizados no sistema pela equipe, baseado em
 
 02.1 - Tela Perfil do Usuário/ Histórico:
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image1.wmf){width="5.770833333333333in"
-height="2.763888888888889in"}
+![AnyConv com__image1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/254bf029-2242-4a99-82cd-91c1a25c0a63)
+
 
 02.2 - Barra de busca quando não tem o medicamento:
 
-![](vertopal_4ea152f46e014dd084a8e2c2846e88d2/media/image2.wmf){width="4.020833333333333in"
-height="1.6111111111111112in"}
+![AnyConv com__image2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/77d7e65b-e59c-480a-b3e1-5e08a78bc537)
 
 02.3 - Quando tem o medicamento:
 
