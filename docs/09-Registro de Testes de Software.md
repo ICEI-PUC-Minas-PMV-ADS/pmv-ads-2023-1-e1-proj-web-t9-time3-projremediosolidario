@@ -35,7 +35,9 @@ height="1.6111111111111112in"}
 
 02.3 - Quando tem o medicamento:
 
+
 ![image3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/c0341104-576c-429b-9f70-766603adf1b1)
+
 
 02.4 - Ao clicar no botão de \"Solicitar\"
 
@@ -48,17 +50,24 @@ height="1.6111111111111112in"}
 height="3.1875in"}
 
 02.5 - Ao clicar \"Cancelar\" aparece mensagem
+
 ![image5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/9202218a-0679-4e46-981b-4794cc6921ed)
+
 
 03 - Resultados para CT - Solicitar Medicamento:
 
+
 03.1 - Barra de busca com medicamento disponivel
+
 
 ![image6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/c8aefd4a-6a96-42ac-811b-a44068b0c13c)
 
+
 03.2 - Barra de busca com medicamento indiponivel
 
+
 ![image7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/54fca16d-fa0e-4a20-aadd-b9cf8d80f827)
+
 03.3 - Busca com filtro cidade
 
 ![image8](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/5d209f06-c48a-4893-8ecc-28309f1c9795)
@@ -69,6 +78,7 @@ height="3.1875in"}
 ![image9](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/e4e6933e-a873-4186-bf50-471d06142e72)
 
 03.5 - Busca com filtro especialidade
+
 ![image10](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/121464977/ff9042a7-d012-495f-9ffb-a63faaa0ad76)
 
 03.6 - Qundo clicar no botão \"Solicitar\"
