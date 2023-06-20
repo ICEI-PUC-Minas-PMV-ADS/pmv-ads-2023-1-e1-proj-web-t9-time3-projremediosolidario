@@ -54,10 +54,10 @@ Os requisitos não funcionais estão descritos logo na tabela abaixo.
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|**RNF-01**|O site deve ter usabilidade adequada para os usuários.|Média|
-|**RNF-02**|O site deve ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
+|**RNF-01**|O site deverá ter usabilidade adequada para os usuários.|Média|
+|**RNF-02**|O site deverá ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
 |**RNF-03**|*O site deverá fornecer segurança e confiabilidade aos usuários que irão acessar.*|Alta|
-|**RNF-04**|O site deve ser acessível para diferentes tipos de navegadores.|Alta|
+|**RNF-04**|O site deverá ser acessível para diferentes tipos de navegadores.|Alta|
 |**RNF-05**|O site deverá ter um bom suporte ao usuário.|Alta|
 
 ## 2.6 Restrições
