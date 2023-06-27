@@ -62,66 +62,79 @@
             </div>
         </div>
     </nav>
+<div class="content_main">
+  <div id="perfil">
+      <img src="assets/img/perfil.jpg" alt="">
+      <h1>Lucas Silva</h1>
+      <p id="idade">Idade: 30</p>
+      <p id="endereco">Belo Horizonte,MG</p>
+  </div>
 
-    <div id="perfil">
-        <img src="assets/img/perfil.jpg" alt="">
-        <h1>Lucas Silva</h1>
-        <p id="idade">Idade: 30</p>
-        <p id="endereco">Belo Horizonte,MG</p>
-    </div>
+      <!--Érica-->
+  <!-- Conteúdo principal -->
+  <div class="main">
+      <!-- Campo de busca e filtros -->
+      <div class="search-filters">
+        <input type="text" id="buscaInput" placeholder="Buscar medicamento">
+        <select id="filtroCidade">
+          <option value="">Filtrar por cidade</option>
+        </select>
+        <select id="filtroEstado">
+          <option value="">Filtrar por estado</option>
+        </select>
+        <select id="filtroEspecialidade">
+          <option value="">Filtrar por especialidade</option>
+        </select>
+        <button onclick="filtrarMedicamentos()">Filtrar</button>
+      </div>
 
-    <!--Érica-->
-<!-- Conteúdo principal -->
-<div class="main">
-    <!-- Campo de busca e filtros -->
-    <div class="search-filters">
-      <input type="text" id="buscaInput" placeholder="Buscar medicamento">
-      <select id="filtroCidade">
-        <option value="">Filtrar por cidade</option>
-      </select>
-      <select id="filtroEstado">
-        <option value="">Filtrar por estado</option>
-      </select>
-      <select id="filtroEspecialidade">
-        <option value="">Filtrar por especialidade</option>
-      </select>
-      <button onclick="filtrarMedicamentos()">Filtrar</button>
-    </div>
+      <!-- Medicamento encontrado -->
+      <div class="medicamento-encontrado">
 
-    <!-- Medicamento encontrado -->
-    <div class="medicamento-encontrado">
+        <img src="" alt="Imagem do medicamento">
+        <h2></h2>
+        <p>Nome do remédio: </p>
+        <p>Estado: </p>
+        <p>Cidade: </p>
+        <p>Quantidade de comprimidos: </p>
+        <p>Especialidade: </p>
+        <p>Validade: </p>
+        <p>Nome do doador: </p>
+        <button class="solicitar-btn" onclick="solicitarMedicamento()">Solicitar</button>
+      </div>
 
-      <img src="" alt="Imagem do medicamento">
-      <h2></h2>
-      <p>Nome do remédio: </p>
-      <p>Estado: </p>
-      <p>Cidade: </p>
-      <p>Quantidade de comprimidos: </p>
-      <p>Especialidade: </p>
-      <p>Validade: </p>
-      <p>Nome do doador: </p>
-      <button class="solicitar-btn" onclick="solicitarMedicamento()">Solicitar</button>
-    </div>
+      <section id="status-solicitacao">
+        <p>Status de Solicitação</p>
+        <ul id="lista-solicitacoes">
+          <!-- Itens de solicitação serão adicionados aqui -->
+        </ul>
+      </section>
 
-    <section id="status-solicitacao">
-      <h2>Status de Solicitação</h2>
-      <ul id="lista-solicitacoes">
-        <!-- Itens de solicitação serão adicionados aqui -->
-      </ul>
-    </section>
+      <!-- Medicamento indisponível -->
+      <div class="medicamento-indisponivel">
+        <p>Medicamento indisponível</p>
+      </div>
 
-    <!-- Medicamento indisponível -->
-    <div class="medicamento-indisponivel">
-      <p>Medicamento indisponível</p>
-    </div>
-
-    <!-- Solicitações -->
-    <div class="solicitacoes">
-      <!-- As solicitações serão adicionadas aqui -->
+      <!-- Solicitações -->
+      <div class="solicitacoes">
+        <!-- As solicitações serão adicionadas aqui -->
+      </div>
     </div>
   </div>
+  <!-- Rodape-->
+  <footer class="bg-black text-center py-5">
+    <div class="container px-5">
+        <div class="text-white-50 small">
+            <div class="mb-2">Remédio Solidário</div>
+            <!--<a href="#!">Privacy</a>
+            <span class="mx-1">&middot;</span>
+            <a href="#!">Terms</a>
+            <span class="mx-1">&middot;</span>
+            <a href="#!">FAQ</a>
+        </div> -->
+    </div>
+  </footer>
 </div>
-
 <!-- Modal de chat -->
 <div class="modal1" id="chatModal">
   <span class="close" onclick="fecharModal()">&times;</span>
@@ -135,19 +148,7 @@
 </div>
 
 
-   <!-- Rodape-->
-   <footer class="bg-black text-center py-5">
-    <div class="container px-5">
-        <div class="text-white-50 small">
-            <div class="mb-2">Remédio Solidário</div>
-            <!--<a href="#!">Privacy</a>
-            <span class="mx-1">&middot;</span>
-            <a href="#!">Terms</a>
-            <span class="mx-1">&middot;</span>
-            <a href="#!">FAQ</a>
-        </div> -->
-    </div>
-</footer>
+   
 
     <script src="js/solicitar.js"></script>
 </body>
