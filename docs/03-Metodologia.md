@@ -38,7 +38,7 @@ Pronto/ Finalizado: nesta lista são colocadas as tarefas que passaram pelos tes
 
 O quadro trello do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [Trello](https://trello.com/b/uprlhYZV/rem%C3%A9dio-solid%C3%A1rio) e é apresentado, no estado atual na figura abaixo.
 
-![Aspose Words 537123c5-2942-4404-a785-35c66e3cfa4f 006](https://user-images.githubusercontent.com/36486198/233803915-2b0d1939-79fd-4569-98c9-0a496dc0d290.png)
+![Backlog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/62729047/d1c9a406-c4a0-417e-8870-b2752ba0b6c6)
 
 FIGURA 1 – Trello
 
