@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: Remédio Solidário
+authors:
+  - family-names: Gabriel Santana dos Santos
+    given-names: Anthony
+  - family-names: Victor Santos Silva
+    given-names: Diogo
+  - family-names: Rodrigues Almeida Almarim
+    given-names: Érica
+  - family-names: Oliveira Rosário
+    given-names: Matheus
+  - family-names: Teixeira Rizzatte
+    given-names: Nathan
+  - family-names: de Sousa Martins
+    given-names: Bárbara
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Rodrigo Costa
+    given-names: Marco
+
+keywords:
+  - Remédio
+  - doação de medicamentos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario
+version: 1.0.0
+date-released: 2023-06-14
